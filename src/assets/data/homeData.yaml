@@ -1,0 +1,57 @@
+# format is
+# start time in seconds
+# text that displays when that start time is hit
+subtitles:
+  0: " "
+  1: hey! this is vincent, i’m so glad you’re here
+  5: this video was made for this site — chaotic, but hopefully fun to look at
+  10: the stills are the visual iterations i tested
+  14: that aside, i’d love to know what you’re working on right now
+  19: is it a cake you’re figuring out how to bake?
+  23: some walking route you’re exploring more deeply?
+  27: a set of books about the imaginal that you’re pondering over?
+  31: whatever it is, i’d be delighted to hear about it!
+  35: otherwise, welcome, and i hope you enjoy your stay here!
+
+intro:
+  default:
+    text: |
+      Hey! I’m <span class='highlight'>Vincent</span>.
+
+      I’m a creative technologist who’s currently experimenting with digital tools via design and code to try and help make the world a little saner.
+
+      I like to think in systems and about flourishing, the web, and myth making through the mediums of sites, motion, and games.
+
+  test:
+    text: |
+      Hi <span class='highlight'>Test</span>! This is the test intro.
+
+      I’m a creative technologist who’s currently experimenting with digital tools via design and code to try and help make the world a little saner.
+
+      I like to think in systems and about flourishing, the web, and myth making through the mediums of sites, motion, and games.
+
+    hasCoverLetter: true
+    coverLetter: |
+      This is a cover letter that will replace the About section.
+
+projectsOrder:
+  default:
+    - Dialogos
+    - OnMeaning
+    - Aera
+    - LikeAFlower
+    - MakingAPlaceOnTheWeb
+    - Three
+    - Scala
+    - OnlineMuseum
+    - Collection
+    - Motion
+
+  test:
+    - Dialogos
+    - Collection
+    - OnMeaning
+    - Three
+    - Motion
+    - MakingAPlaceOnTheWeb
+    - LikeAFlower

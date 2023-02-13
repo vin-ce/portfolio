@@ -1,0 +1,70 @@
+@import "./variables.styl"
+
+/* this sets REM to be based off of 10px */
+:root 
+  font-size 62.5%
+
+body 
+  margin 0
+  font-family $default-font-family
+  font-weight 400
+  font-size 1.8rem
+  line-height 1.5
+
+  background-color $background-color
+
+a
+  font-family $click-font-family
+  cursor pointer
+
+  color $black
+  text-decoration none
+
+
+  &:hover
+    text-decoration $highlight-color underline
+
+  &:visited 
+    $black
+
+
+// alternative link styling
+.link
+  font-family $default-font-family 
+  text-decoration underline
+
+  &:hover
+    text-decoration $highlight-color underline
+
+
+.rowContainer 
+  display flex
+  // justify-content space-between
+
+
+// -----------
+// 3 COLS
+
+.leftCol 
+  width 38rem
+  // prevents box from shrinking 
+  flex-shrink 0
+
+.middleCol
+  margin 0 3.2rem 0 3.2rem
+  width 100%
+
+  align-self flex-start
+
+.rightCol
+  width 32rem
+  flex-shrink 0
+
+
+// SPECIAL STYLINGS
+
+.highlight
+  color $background-color
+  background-color $black
+  font-style italic
+  

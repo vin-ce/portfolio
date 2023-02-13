@@ -1,0 +1,75 @@
+@import "./variables.styl"
+
+.carouselContainer
+  // margin 0.8rem 0
+
+.visualsContainer
+  position relative // necessary to ground postion absolute in the image and video
+  overflow hidden
+  left -16px
+
+  height 35vh
+  width 100vw
+  // background-color $light-grey
+  
+
+  .image
+    height 100%
+    width 100%
+
+    // to prevent image from squishing
+    object-fit contain
+    object-position bottom center
+
+    position absolute
+    
+  video 
+    object-position bottom center !important
+
+.wrapper 
+  height 100%
+  width 100%
+
+.controlsContainer
+  display flex
+  user-select none 
+  margin-top 0.4rem
+  align-items center
+  justify-content right
+
+  div
+    margin-right 1.6rem
+
+.hidden
+  display none
+
+
+
+
+$slideTime = 0.25s
+// $slideTime = 5s
+
+.slideIn
+  animation $slideTime forwards slideInAnimation
+
+@keyframes slideInAnimation
+  from 
+    left 100%
+    // opacity 0%
+
+  to 
+    left 0%
+    // opacity 100%
+
+
+.slideOut
+  animation $slideTime forwards slideOutAnimation
+
+@keyframes slideOutAnimation
+  from
+    left 0%
+    // opacity 100%
+
+  to 
+    left -100%
+    // opacity 0%

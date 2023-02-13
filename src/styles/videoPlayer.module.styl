@@ -1,0 +1,115 @@
+@import "./variables.styl"
+
+
+.carouselPlayerContainer
+  position absolute
+  width 100%
+  height 100%
+
+.fullPlayerContainer
+  position relative
+
+  width 100%
+  height 100%
+
+  video
+    object-position top
+
+.carouselPlayerStyle
+  // position absolute
+  video
+    object-position left bottom
+
+.fullPlayerStyle
+  // display flex
+  // height 100%
+  &:hover
+    cursor pointer
+  
+.controlsContainer
+  position absolute
+  bottom 0
+  
+  display flex
+  // width 32rem
+  // width 100%
+  height 2.4rem
+
+  padding 1.6rem
+  // box-sizing border-box
+
+  cursor default
+
+  // for transition purposes
+  opacity 0
+  transition opacity 0.25s
+
+  .playPauseContainer
+    cursor pointer
+    position relative
+
+    .play
+      position relative
+      z-index 2
+
+    .pause
+      position absolute
+      z-index 1
+
+      left 0
+
+
+.volumeMuteContainer
+  cursor pointer
+  position relative
+  margin-left 1.6rem
+  user-select none
+
+  .volumeStyle
+    position relative
+    z-index 2
+
+  .muteStyle
+    position absolute
+    z-index 1
+
+    left 0
+
+.hidden
+  opacity 0
+
+.progressBarContainer
+  background-color $background-color
+  border 0.5px solid $black
+  width 100%
+  margin-left 1.6rem
+  cursor pointer
+
+  height 50%
+  align-self center
+
+
+  .progressBar
+    background-color $highlight-color
+    height 100%
+    width 0%
+    border-right 0.5px solid black
+
+  .seekBar
+    height 100%
+    width 100%
+    position relative
+    top -12px
+    opacity 0
+
+.durationContainer
+  margin-left 1.6rem
+  align-self center
+  background-color $black
+  color $background-color
+  user-select none
+
+
+
+
+

@@ -1,0 +1,45 @@
+@import "./variables.styl"
+
+.projectContainer
+  // padding so the scrollTo lands with the padding included
+  // has padding-top also for scrollTo reasons 
+  // padding 3.2rem 0
+  padding-bottom 12rem
+  
+.allTextContainer
+  margin-top 1.6rem
+
+.headingsContainer
+  font-size 2.2rem
+  display flex
+  flex-direction column
+
+  span
+    width fit-content
+
+  .projectName
+    color $background-color
+    background-color $black
+
+  .subtitle
+    font-size 2.2rem
+    font-style italic
+
+.infoContainer
+  // font-size 1.8rem
+
+  display flex
+
+  .descriptionContainer
+    width 32rem
+    margin-right 3.2rem
+    white-space: pre-line
+
+  .extraInfoContainer
+    // width 32rem
+    display flex
+    flex-direction column
+
+.buttonsContainer
+  position relative
+  z-index 10

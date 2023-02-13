@@ -1,0 +1,51 @@
+@import "./variables.styl"
+
+.container 
+  display flex
+  margin 1.6rem
+
+.colL
+  width 32rem
+  // prevents box from shrinking 
+  flex-shrink 0
+  font-size 2.2rem
+
+
+  .company 
+   font-size 4.8rem
+   line-height 1
+
+  .dateStyle
+    font-style italic
+    margin-top 0.8rem
+
+.colM
+  margin 0 3.2rem 0 3.2rem
+  width 100%
+  align-self flex-start
+
+  .content
+    height unset
+
+  video
+    height unset !important
+
+.colR
+  width 32rem
+  flex-shrink 0
+  font-size 2.2rem
+
+  .projectsListContainer
+    display flex 
+    flex-direction column
+    margin-top 1.6rem
+
+    .itemContainer
+      display flex 
+      align-items center
+      
+
+      a 
+        margin-left 0.8rem
+        font-family $default-font-family
+

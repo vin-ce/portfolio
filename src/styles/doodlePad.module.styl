@@ -1,0 +1,100 @@
+@import "./variables.styl"
+
+
+.doodlePadContainer
+
+  position fixed
+  z-index 0
+  right 1.6rem
+
+.mobilePadContainer 
+  // 
+
+.headerContainer
+  display flex
+  justify-content space-between
+  user-select none
+
+  .headerLeftContainer
+    display flex
+
+    // this is the 'Doodle Pad' header text
+    span
+      margin-right 1.6rem
+
+    .headerLeftIconsContainer
+      display flex
+      align-items center
+
+      svg
+        margin-right 0.8rem
+        cursor pointer
+
+  .headerRightContainer
+    display flex
+    align-items center
+    cursor pointer
+
+    // 'Send' text
+    span
+      font-family $click-font-family
+      font-size 1.6rem
+
+    svg
+      margin-right 0.8rem
+
+
+.hide 
+  opacity 0
+  pointer-events none
+
+.gone
+  display none
+
+
+.canvasContainer
+  border 0.5px solid $black 
+  // box-sizing border-box
+  width min-content
+  margin 0.8rem 0 1.6rem 0
+
+  cursor url(/cursor/Pencil.svg) 0 20, crosshair
+
+
+.contactContainer
+  margin-bottom 1.6rem
+
+  input[type=text]
+    width 100%
+    padding 0
+    margin 0
+    box-sizing border-box
+
+    border 0
+    background-color $background-color
+
+    font-size 1.6rem
+    font-family $click-font-family
+
+    &:focus
+      outline none
+
+
+.messageContainer
+
+  textarea
+    width 100%
+    box-sizing border-box
+
+    border 0
+    background-color $background-color
+
+    resize none
+
+    font-size 1.6rem
+    font-family $click-font-family
+
+    &:focus
+        outline none
+
+

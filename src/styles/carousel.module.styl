@@ -1,0 +1,80 @@
+@import "./variables.styl"
+
+.carouselContainer
+  height 80vh
+  display flex
+
+.visualsContainer
+  height 100%
+  width 100%
+  margin-left 3.2rem 
+  position relative
+  z-index 1
+  
+  overflow hidden
+  background-color $light-grey
+  cursor url(/cursor/RightArrow.svg) 30 18, pointer	
+
+  .image
+    height 100%
+    width 100%
+
+    // to prevent image from squishing
+    object-fit contain
+    // to align image to the bottom when being squished
+    object-position left bottom
+
+    position absolute 
+    user-select none
+
+
+.controlsContainer
+  display flex
+  justify-content right
+  align-items end
+  user-select none 
+
+  // outer span wraps it so the controls+svg move as a single unit to the bottom
+  // allows for controls & svg to center with one another individually
+  span
+    span
+      margin-right 1.6rem
+      vertical-align middle
+
+    svg
+      vertical-align middle
+      cursor pointer
+
+
+.hidden
+  display none
+
+
+
+$slideTime = 0.25s
+// $slideTime = 5s
+
+.slideIn
+  animation $slideTime forwards slideInAnimation
+
+@keyframes slideInAnimation
+  from 
+    left 100%
+    // opacity 0%
+
+  to 
+    left 0%
+    // opacity 100%
+
+
+.slideOut
+  animation $slideTime forwards slideOutAnimation
+
+@keyframes slideOutAnimation
+  from
+    left 0%
+    // opacity 100%
+
+  to 
+    left -100%
+    // opacity 0%

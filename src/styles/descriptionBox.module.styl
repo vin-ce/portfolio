@@ -1,0 +1,66 @@
+@import "./variables.styl"
+
+.container
+  width 32rem
+  position fixed
+  right 1.6rem
+  top 1.6rem
+
+  // border 1px solid $black
+
+  // so can tweak sections to z-index 1 to be below, z-index 3 to be above 
+  z-index 2
+
+.controlsContainer
+  display flex
+  justify-content space-between
+  margin-bottom 0.8rem
+  user-select none
+  
+  div
+    display flex
+
+.lessMoreContainer
+  margin-right 0.8rem
+  display flex 
+  position relative
+  cursor pointer
+  // user-select none
+  align-items center
+
+
+  .less
+    position relative
+    z-index 2
+  .more
+    position absolute
+    z-index 1
+    left 0
+  
+.hide
+  opacity 0
+  pointer-events none
+
+
+
+.rightContainer
+  align-items center
+
+  .indexStyle
+    margin 0 0.8rem
+    width 4.8rem
+    justify-content center
+
+  .left
+  .right
+    cursor pointer
+
+.textContainer
+  padding 0.8rem 0
+  border-top 1px dashed black
+  border-bottom 1px dashed black
+  white-space pre-line
+  background-color $background-color
+
+
+

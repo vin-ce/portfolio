@@ -1,0 +1,3297 @@
+# ===================
+# MAKING A PLACE
+
+MakingAPlaceOnTheWeb:
+  name: Making a Place on the Web
+  id: MakingAPlaceOnTheWeb
+  subtitle: Explorations on home, gardens and tabs.
+  desc: |
+    This is a three part series that uses ideas from environmental psychology as metaphors for the web. I think through notions of home, garden, and a better interface for tabs.
+
+    The project walkthrough focuses on tabs. Links to the other parts are contained in the walkthrough.
+  type: Web Design
+  tools:
+    - Figma
+    - After Effects
+  dateAndPlace: 2021
+
+  task: Exploring concepts from environmental psychology as metaphors for the web.
+  idea: Home, garden and tabs.
+
+  homeCarouselVisualsLinks:
+    - type: video
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Quick+Change+Tab.mp4
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Garden+-+revisiting+and+growth+equals+gardening.png
+    - type: video
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Minimap.mp4
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Tabs+-+Groups+-+Space+All.png
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Garden+-+Collecting+Graph.png
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Home+-+Cookie+Jar.png
+
+  buttons:
+    - icon: MoreIcon
+      text: Project Walkthrough
+      src: /project/place
+
+  projectPageSections:
+    - type: top
+      name: Intro
+      desc: |
+        This is a three part series that uses ideas from environmental psychology as metaphors for the web. I think through notions of home, garden, and a better interface for tabs. 
+
+        Presented here is the tabs interface. If you’d like to see the other parts, please visit <a href='http://garden.vincentli.space/making-a-place-on-the-web' class='link' target='_blank'>here</a>.
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Tabs.png
+
+    - type: bigContained
+      name: Main
+      desc: |
+        I’m the kind of person to have 50 tabs open across 4 different windows. I’d like to have an easier time managing that, so here’s an attempt that gives tabs its own interface.
+
+        The image here is the main interface. The links map out the breadcrumbs.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Tabs+-+Default.png
+
+    - type: bigOverflow
+      name: Switch
+      desc: |
+        For switching between tabs, we can do it via two ways.
+
+        The first is a shortcut key, showing the quick switch. The second is through a minimap. Since it’s persistently in the bottom corner, how it blocks out content might make it too ‘noisy’. That said, I feel like there’s some potential here.
+
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Quick+Change+Tab.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Minimap.mp4
+
+    - type: bigContained
+      name: Switch
+      desc: |
+        Here’s a bit more detail on how the tabs and the links between them are represented on opening new tabs and closing and / or switching into a new one.
+
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Change+Page.mp4
+
+    - type: bigContained
+      name: Groups
+      desc: |
+        There isn’t really a way to organise tabs at the moment, and so I wanted to have ‘groups’ and ‘spaces’.
+
+        Groups chunk relevant tabs together.
+
+        This clip shows the creation process of a group.
+
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Groups.mp4
+
+    - type: bigOverflow
+      name: Groups
+      desc: |
+        I also wanted there to be drawing. Lots of other folks have done very interesting things with drawn gestures.
+
+        Even thinking about what a basic gesture like drawing an arrow from one tab to another could entail would yield something — what kind of information are you connecting?
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Tabs+-+Groups+-+Draw+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Tabs+-+Groups+-+Draw+2.png
+
+    - type: bigOverflow
+      name: Space
+      desc: |
+        Spaces are like our current ‘windows’. I generally have each window serve a particular function, e.g I’d have a work window and a music + relax window.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Tabs+-+Groups+-+Create+Space+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Tabs+-+Groups+-+Create+Space+2.png
+
+    - type: bigContained
+      name: Space
+      desc: |
+        What’s created in the space remains in the space, except showing up in ‘All’.
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Tabs+-+Groups+-+Space+All.png
+
+    - type: bigContained
+      name: Multiplayer
+      desc: |
+        What’s created in the space remains in the space, except showing up in ‘All’.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Tabs+-+Groups+-+Multiplayer+Space.png
+
+    - type: bigContained
+      name: Information
+      desc: |
+        If we think about each tab as capable of holding additional information (e.g adding descriptions to tabs to know why we opened it), maybe we can drag images and text into the minimap, which will save it to the tab.
+
+        Here’s one direction of revealing what things we’ve saved.
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Expand.mp4
+
+    - type: bigContained
+      name: Information
+      desc: |
+        I also like the idea of the links themselves being capable of holding information. The most basic would be to show what tabs were closed (reconstructing the breadcrumbs).
+
+        But maybe there could be entire programs / modules between tabs that enrich the connections between them. What if each connection between tabs was a mini game?
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+View+Links+Info.mp4
+
+    - type: bigContained
+      name: Digital Objects
+      desc: |
+        Why might we want to collect such digital objects?
+
+        One idea is to enable you to create ‘treks’, or ‘internet strolls and rabbit holes’ for others to follow.
+
+        I talk about this idea, as well as digital care packages, on my page about <a href='http://garden.vincentli.space/making-a-place-on-the-web---garden/' class='link' target='_blank'>digital gardening</a>.
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Internet+Strolls+and+Rabbit+Holes.png
+
+    - type: bigContained
+      name: History
+      desc: |
+        Some brief things on an interface for the history. I take inspiration from this article: <a href='https://www.freecodecamp.org/news/browserhistory-2abad38022b1/' class='link' target='_blank'>The Future of Browser History</a>
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+History+-+Expanded.png
+
+    - type: bigContained
+      name: History
+      desc: |
+        I use two trackers daily: Time Your Web for Chrome (top), Manic Time for everything else (bottom).
+
+        Note how messy it is.
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+History+-+Inspiration.png
+
+    - type: bigContained
+      name: History
+      desc: |
+        This is why I would have different views: 1. Expanded has each new tab as its own line, 2. Grouped would group each by the website, and 3. Collapsed has it all on one line.
+
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+History+-+Expand+Density+Menu.mp4
+    - type: bigContained
+      name: History
+      desc: |
+        This shows hover interaction for breadcrumbs.
+
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+History+-+On+Tab+Hover.mp4
+
+    - type: text
+      name: End
+      desc: ~
+      materials:
+        - type: default
+          text: View another web design project <a href="/project/dialogos" class="link">here</a>, or return <a href="/" class="link">home</a>.
+
+  presentation:
+    - type: top
+      name: Intro
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Place.png
+
+    - type: text
+      name: Background
+      materials:
+        - type: default
+          text: metaphors
+
+    - type: bigContained
+      name: Home
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Home+-+Default.png
+
+    - type: text
+      name: Home
+      materials:
+        - type: default
+          text: write mode over read mode
+
+    - type: bigContained
+      name: Home
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Home+-+Social+Medias.png
+
+    - type: bigContained
+      name: Garden
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Garden+-+revisiting+and+growth+equals+gardening.png
+
+    - type: bigContained
+      name: Garden
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Garden+-+Collecting+Graph.png
+
+    - type: bigContained
+      name: Garden
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Garden+-+Care+Package.png
+
+    - type: bigContained
+      name: Tabs
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Tabs+-+Default.png
+
+    - type: bigContained
+      name: Minimap
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Minimap.mp4
+
+    - type: bigOverflow
+      name: Switch
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Quick+Change+Tab.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Change+Page.mp4
+
+    - type: bigOverflow
+      name: Groups
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Groups.mp4
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Tabs+-+Groups+-+Draw+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Tabs+-+Groups+-+Draw+2.png
+
+    - type: bigOverflow
+      name: Space
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Tabs+-+Groups+-+Create+Space+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Tabs+-+Groups+-+Create+Space+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Tabs+-+Groups+-+Space+All.png
+
+    - type: bigContained
+      name: Multiplayer
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Tabs+-+Groups+-+Multiplayer+Space.png
+
+    - type: bigOverflow
+      name: Information
+
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Expand.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+View+Links+Info.mp4
+
+    - type: bigContained
+      name: Digital Objects
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Internet+Strolls+and+Rabbit+Holes.png
+
+# ===============
+# ON MEANING
+
+OnMeaning:
+  name: On Meaning
+  id: OnMeaning
+  subtitle: A motion piece on becoming.
+  desc: |
+    This is a ~1 minute long motion graphics piece that sits with the question of meaning. 
+
+    The prompt of the class was the create a video that expresses an issue. My idea was to convey a conception of meaning through multiple layers / with many ways of processing the same information.
+  type: Motion Design
+  tools:
+    - After Effects
+  dateAndPlace: 2021
+
+  task: Express an issue with a minute long video.
+  idea: Communicate a conception of meaning in multiple layers.
+
+  homeCarouselVisualsLinks:
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Cover.png
+    - type: video
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning.mp4
+      hasSound: true
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Yin+Yang.png
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Are+You+a+God.png
+
+  buttons:
+    - icon: WatchIcon
+      text: Watch
+      src: https://vimeo.com/658806066
+    - icon: MoreIcon
+      text: Project Walkthrough
+      src: /project/meaning
+
+  projectPageSections:
+    # first one is top of page
+    - type: top
+      name: Intro
+      desc: |
+        To enliven the heart.
+
+        View the video below, or <a href='https://vimeo.com/658806066' class='link' target='_blank'>on Vimeo here</a>.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Cover.png
+
+    - type: spreadContained
+      name: Video
+      desc: ~
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning.mp4
+          hasSound: true
+
+    - type: trio
+      name: Background
+      desc: |
+        I’m deeply influenced by John Vervaeke, a professor and cognitive scientist who created a tremendous, one hour each, 50 episode long lecture series called <a href='https://www.youtube.com/watch?v=54l8_ewcOlY' class='link' target='_blank'>Awakening From the Meaning Crisis</a>. My video takes its ideas from there.
+
+        From the very start, I wanted there to be multiple ways of processing the same information. I had just finished reading Iain McGilchrist’s tome The Master and His Emissary, which talks about our left and right hemispheres. This fitted really well with the idea of the ‘having’ and ‘being’ mode, an idea from the humanist psychologist Erich Fromm. See Vervaeke talk about it <a href='https://www.youtube.com/watch?v=XHXDy-htbIY&ab_channel=Voicecraft' class='link' target='_blank'>in this interview clip</a>.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/aftmc_cover.jpg
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/master-and-his-emissary_cover.jpg
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/to-have-or-to-be_cover.jpeg
+
+    - type: bigOverflow
+      name: Process
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/garden/IMG%20-%20On%20Meaning%20-%20Sketches%20-%201.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/garden/IMG%20-%20On%20Meaning%20-%20Sketches%20-%202.png
+      desc: Early thoughts, sketches and keyframes.
+
+    - type: bigOverflow
+      name: Process
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/garden/IMG%20-%20On%20Meaning%20-%20illustrator%20storyboard.png
+      desc: |
+        Digital keyframes with descriptions of movement in pink. 
+
+        This also shows a perhaps more subtle visual aspect of ‘stepping into the light’ (en-lightenment), shifting from 50% opacity black, to normal on the word “enlightenment”, to white.
+
+    - type: noneBig
+      name: Process
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Word-Image+Mapping.png
+      desc: This shows the mapping of the script to images. The images I collected are in <a href='https://www.are.na/vincent-li/ds3-design-with-e-motion-on-meaning' class='link' target='_blank'>this arena channel</a>.
+
+    - type: halfHalfSpread
+      name: Frames
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Section+-+Having+Being.mp4
+          autoplay: true
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Section+-+Yin+Yang.mp4
+          autoplay: true
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Section+-+Communion.mp4
+          autoplay: true
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Section+-+Awake.mp4
+          autoplay: true
+
+    - type: text
+      name: End
+      desc: ~
+      materials:
+        - type: default
+          text: View a collection of <a href="/project/motion" class="link">my other motion work</a>, or return <a href="/" class="link">home</a>.
+
+  presentation:
+    # first one is top of page
+    - type: top
+      name: Intro
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Cover.png
+
+    - type: spreadContained
+      name: Video
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning.mp4
+          hasSound: true
+
+    - type: trio
+      name: Background
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/aftmc_cover.jpg
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/master-and-his-emissary_cover.jpg
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/to-have-or-to-be_cover.jpeg
+
+    - type: text
+      name: Intent
+      materials:
+        - type: numberedList
+          items:
+            - Narration
+            - Descriptive graphics
+            - Metaphorical imagery
+
+    - type: bigOverflow
+      name: Process
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/garden/IMG%20-%20On%20Meaning%20-%20Sketches%20-%201.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/garden/IMG%20-%20On%20Meaning%20-%20Sketches%20-%202.png
+
+    - type: bigOverflow
+      name: Process
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/garden/IMG%20-%20On%20Meaning%20-%20illustrator%20storyboard.png
+
+    - type: noneBig
+      name: Process
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Word-Image+Mapping.png
+
+    - type: halfHalfSpread
+      name: Frames
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Section+-+Having+Being.mp4
+          autoplay: true
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Section+-+Yin+Yang.mp4
+          autoplay: true
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Section+-+Communion.mp4
+          autoplay: true
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Section+-+Awake.mp4
+          autoplay: true
+
+# ===============
+# COLLECTION
+
+Collection:
+  name: Collection
+  id: Collection
+  subtitle: Cultivating the transcendent through the mundane.
+  desc: |
+    Cultivating the transcendent through the mundane. What does it mean to coevolve a contemplative relationship with a website that’s alive?
+
+    The collection of image / question pairs and the site that houses it are small explorations of the two, intertwined ideas.
+
+  type: Web Development & Design
+  tools:
+    - Code
+    - Firebase
+  dateAndPlace: 2021
+
+  task: From an object, collect 50+ related images and create a poster from them.
+  idea: What does it mean to coevolve a contemplative relationship with a website that’s alive?
+
+  homeCarouselVisualsLinks:
+    - type: video
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Front+Page.mp4
+    - type: video
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Image+Question.mp4
+
+  buttons:
+    - icon: VisitIcon
+      text: Visit Site
+      src: https://ds3-collection.netlify.app/
+    - icon: MoreIcon
+      text: Project Walkthrough
+      src: /project/collection
+
+  projectPageSections:
+    - type: top
+      name: Intro
+      desc: |
+        The prompt for the project was to get an object that was meaningful to us, free associate as many words as possible, collect 50+ images based off of that, and then make an “included” poster of the images we liked + a corresponding “excluded” poster of the leftovers.
+
+        Visit the site <a href='https://ds3-collection.netlify.app/' class='link' target='_blank'>here</a>.
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Full+Crop.png
+
+    - type: spreadContained
+      name: Front Page
+      desc: ~
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Front+Page.mp4
+
+    - type: bigContained
+      name: Process
+      desc: |
+        This seed is the object I chose.
+
+        It’s a seed from a Buddhist temple that, as you rub it over time, it’ll get shiner. It was gifted to me by a dear friend.
+
+        Some words I landed on included cultivation, sacred, time, charms, rhythm, love, intimacy, poetics, myths, symbols.
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Seed.jpg
+
+    - type: bigContained
+      name: Process
+      desc: The 50 images I ended up with.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+50+Images.png
+
+    - type: halfHalfOverflow
+      name: Process
+      desc: |
+        We were really pushed to annotate and to ‘add layers’. Here’s some post-it notes and scribbling.
+
+        From that, a clear idea emerged for me:
+
+        <b>The cultivation of the transcendent through the mundane.</b>
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Process+-+Accepted+All.jpg
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Process+-+Accepted+Detail.jpg
+
+    - type: bigContained
+      name: Process
+      desc: |
+        The problem was trying to convey that through a poster.
+
+        What might it mean to form a loving relationship with a poster? What does cultivating a poster look like? What is the spirit of a poster, and how might we marinate in it?
+
+        The conclusion that I ended up with was that a physical poster was desperately insufficient for the ideas that I hoped to explore. Instead, I built a site that experimented with these hefty concepts in a small way.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Process+-+Questioning+the+Poster.jpg
+
+    - type: bigOverflow
+      name: Exploration
+      desc: |
+        This is the site in an earlier state.
+
+        I ended up putting all the accepted images into a web (using D3.js) — the current version of the site has replies connect as well. I connected the images that I thought were relevant to one another. Each image is also linked to at least one of six tags: love, transcendent, mundane, cultivate, objects and time.
+
+        The links that are connected to tags are coloured accordingly. Images that are linked to replies are of lighter grey.
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Site+-+Web+v1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Site+-+Highlight+Node.png
+
+    - type: text
+      name: Site Structure
+      desc: The eventual structure of the site revolved around these three main parts.
+      materials:
+        - type: default
+          text: "There are three main parts of the site:"
+        # - type: default
+        #   text: "&nbsp;"
+        - type: numberedList
+          items:
+            - Each image is paired with a question
+            - Time capsules
+            - Each image can be replied to
+
+    - type: bigOverflow
+      name: Image + Question
+      desc: |
+        To speak to the interface first, the image is deliberately put such that that’s the only thing we see, and we have to scroll down to get to the other content. The question also has a healthy spacing too for the same reason.
+
+        This is a reaction to something like Pinterest where there are just walls of images. I wanted there to be full attention on a single thing, removed from other images and even interactions such as ‘liking’ or ‘commenting’.
+
+        On pairing each image with a question, in my struggle to make a poster ‘alive’, I came upon the idea that a question itself can be ‘alive’. Every time we engage with a question, it might reveal something different to us. A question, even if we just read it once, can reside in our minds like a seed.
+
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Image+Question.mp4
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Image+Question+Pair.png
+
+    - type: halfHalfOverflow
+      name: Time Capsule
+      desc: |
+        This is why I created ‘time capsules’ so that you can revisit these images and questions periodically, and in this way form a long term (at least in internet time) relationship with the material. It works by sending you an email after the set period.
+
+        Another reasoning behind the capsules was also to do with how we often collect a lot of material (e.g pins or blocks), but rarely, if ever, look back through them again.
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Time+Capsule.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Time+Capsule+Email.png
+
+    - type: bigContained
+      name: Replies
+      desc: |
+        Questions are often meant to be answered, or at least attempted.
+
+        I wanted to get beyond the propositional, and so the replies are strictly image only.
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Replies.png
+
+    - type: text
+      name: End
+      desc: ~
+      materials:
+        - type: default
+          text: For another project that aims to foster a more thoughtfulness through technology, see <a href="/project/dialogos" class="link">Dialogos</a>. Otherwise, return to <a href="/" class="link">home here</a>.
+
+  presentation:
+    - type: top
+      name: Intro
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Full+Crop.png
+
+    - type: spreadContained
+      name: Front Page
+      desc: ~
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Front+Page.mp4
+
+    - type: bigContained
+      name: Process
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Seed.jpg
+
+    - type: bigContained
+      name: Process
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+50+Images.png
+
+    - type: halfHalfOverflow
+      name: Process
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Process+-+Accepted+All.jpg
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Process+-+Accepted+Detail.jpg
+
+    - type: text
+      name: Theme
+      materials:
+        - type: default
+          text: |
+            The cultivation of the transcendent
+            through the mundane
+
+    - type: text
+      name: Site Structure
+      materials:
+        - type: numberedList
+          items:
+            - Each image is paired with a question
+            - Time capsules
+            - Each image can be replied to
+
+    - type: bigOverflow
+      name: Image + Question
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Image+Question.mp4
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Image+Question+Pair.png
+
+    - type: halfHalfOverflow
+      name: Time Capsule
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Time+Capsule.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Time+Capsule+Email.png
+
+    - type: bigContained
+      name: Replies
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Replies.png
+
+# ==========
+# POINT
+
+Point:
+  name: Point
+  id: Point
+  subtitle: To help notice the escaped, offline, mudane magics.
+  desc: |
+    Point is a short-form journalling app that’s centered around a daily prompt. What we attend to makes up our reality, and so through the prompts I wanted to create a lens through which we can notice things that make us subtly happier, and create a collection of these mental hand warmers that we can refer back to.
+
+  type: Web Development & Design
+  tools:
+    - React
+    - Mongo DB
+  dateAndPlace: 2019
+
+  task: Use online to bring us closer to offline.
+  idea: Enriching our attention through prompts.
+
+  homeCarouselVisualsLinks:
+    - type: video
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/point/point_v2-demo.mp4
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/point/1.%20Home.png
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/point/3.%20Take%20Upload%20photo.png
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/point/7.%20Extension%20-%20Manual.png
+
+  buttons:
+    - icon: MoreIcon
+      text: Project Walkthrough
+      src: /project/point
+
+  projectPageSections:
+    - type: top
+      name: Intro
+      desc: |
+        Point is a short-form journalling app that’s centered around a daily prompt. What we attend to makes up our reality, and so through the prompts I wanted to create a lens through which we can notice things that make us subtly happier, and create a collection of these mental hand warmers that we can refer back to.
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/point/Point+Logo.png
+
+    - type: bigContained
+      name: V1
+      desc: |
+        Although it feels strangely relevant now, the inspiration for Point actually came from a pre-COVID class during the winter of 2019, where we were tasked to stare at a single painting in two separate, two hour straight sessions. No phones allowed. This dramatically stripped experience resulted in a forced awareness of the hidden strangeness and delights of the easily and often hidden world around us. Ultimately, it left me with a sense of renewed wonder and curiosity in the richness of what the quiet everyday can offer us. I wanted to capture the continual discovery of this lofi, understated but ever present beauty in this tool.
+
+        This is the first version of the app. There were more features and options, but after some more reflection, I felt that it should be even more minimal, reflecting the ethos of the app. Essentials only.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/point/point_v1-mocks.gif
+
+    - type: bigContained
+      name: V2
+      desc: |
+        Home page (the most recent version of it). The app works through prompts, which help frame the day, through which are subtle reminders to note down your current mood and what you’ve noticed.
+
+        The design strives to be as frictionless as possible — the app should help remove ourselves from the online world. I also wanted environment to be warm. Something you can rely and trust.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/point/1.%20Home.png
+
+    - type: bigContained
+      name: V2
+      desc: "There are two ways to capture a moment: text and image."
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/point/2.%20Add%20new.png
+
+    - type: bigContained
+      name: V2
+      desc: This is what adding an image looks like. On the computer, it’ll use your webcam.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/point/3.%20Take%20Upload%20photo.png
+
+    - type: bigContained
+      name: V2
+      desc: |
+        You can save the moments you like into collections.
+
+        Memory fragments are daily, randomly pulled, saved moments. It serves to pleasantly surprise.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/point/4.%20Collections%20-%20Default%20View.png
+
+    - type: bigContained
+      name: V2
+      desc: |
+        A closer look at the collections view.
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/point/5.%20Collections%20-%20Collection%20View.png
+
+    - type: bigContained
+      name: V2
+      desc: |
+        The extension replaces your new tab for easy access.
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/point/6.%20Extension%20-%20New%20Tab.png
+
+    - type: bigContained
+      name: V2
+      desc: |
+        You can also add a moment manually through the extension button itself.
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/point/7.%20Extension%20-%20Manual.png
+
+    - type: text
+      name: End
+      materials:
+        - type: default
+          text: For another project that aims to foster a more thoughtfulness through technology, see <a href="/project/dialogos" class="link">Dialogos</a>. Otherwise, return to <a href="/" class="link">home here</a>.
+
+# ==================
+# ONLINE MUSEUM
+
+OnlineMuseum:
+  name: Online Museum
+  id: OnlineMuseum
+  subtitle: We are all creators.
+  desc: |
+    What does it mean to have the act of creation to be the default mode of collection? The Online Museum seeks to answer this question, and in turn push us to form much deeper relationships to the media we’re consuming, and to create an environment in which it’s not only an accessible space to make, but that also more deliberately forms connections between media and between creators. The site is a space where you can create galleries and create text and images on it.
+
+    The Museum was a project between myself and the brilliant <a href='https://jon-chen.com/' class='link' target='_blank'>Jon Chen</a>. We worked on the design and the concepts together.
+  type: Web development & design
+  tools:
+    - React
+    - Mongo DB
+    - Amazon S3
+  dateAndPlace: 2020
+
+  task: Create a museum that’s native to the digital.
+  idea: A space that defaults write mode over read mode.
+
+  homeCarouselVisualsLinks:
+    - type: video
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/online-museum_demo.mp4
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/Online+Museum+-+Kay.png
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/Online+Museum+-+Soo.png
+
+  buttons:
+    - icon: MoreIcon
+      text: Project Walkthrough
+      src: /project/museum
+
+  projectPageSections:
+    - type: top
+      name: Intro
+      desc: |
+        What does it mean to have the act of creation to be the default mode of collection? The Online Museum seeks to answer this question, and in turn push us to form much deeper relationships to the media we’re consuming, and to create an environment in which it’s not only an accessible space to make, but that also more deliberately forms connections between media and between creators.
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/Online+Musem+Logo.png
+
+    - type: spreadContained
+      name: Demo
+      desc: ~
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/online-museum_demo.mp4
+
+    - type: bigContained
+      name: Demo
+      desc: |
+        The above is a demo. The site is a space where you can create galleries and place text and images on a long, horizontal canvas.
+
+        The Museum was a project between myself and the brilliant <a href='https://twitter.com/home' class='link' target='_blank'>Jon Chen</a>. We worked on the design and the concepts together. 
+
+        This was my figma workspace.
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/Figma.png
+
+    - type: bigOverflow
+      name: Galleries
+      desc: |
+        Here are some examples of galleries folks created.
+
+        I primarily spent my time programming the site, using React for the frontend and creating a database with Mongo DB for upload capabilities. It also has authentication and validation and hotkeys and undo-ing and redo-ing and a bunch of other things.
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/Exhibit+-+Soo.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/Exhibit+-+Kay.png
+
+    - type: text
+      name: Idea
+      desc: |
+        The part that I’m most interested in for this project is that idea, again, of write mode over read mode.
+
+        What does it mean for the act of creation to be the default way we interact, rather than solely consumptive.
+
+      materials:
+        - type: default
+          text: write mode over read mode
+
+    - type: bigContained
+      name: Remix
+      desc: |
+        On top of that, I was also really into this idea of remixing and sharing. 
+
+        I wanted there to be a way to collect images you liked from other people’s exhibits, and use it as material for your own exhibits
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/Saving+Material.png
+
+    - type: halfHalfContained
+      name: History
+      desc: |
+        A key part is that each image has a history of usage behind it so you know it’s original author as well as the places that it’s travelled. Maybe there’s material library where all the collected things go
+
+        Why do this? I wanted to create a place that not only allows for collection and continual inspiration, but an ability to actively act upon the ideas and connections, to encourage creation to be the natural impulse.
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/Materials+Sidebar.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/Material+History.png
+
+    - type: bigContained
+      name: Logo
+      desc: |
+        This logo & wordmark was designed by Jon. 
+
+        Due to various factors, this project was never finished, and the site is no longer live, but I learnt a lot about the practicalities of collaborative projects, and its ideas still influences my work now.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/Online+Museum+Workmark.png
+
+    - type: text
+      name: End
+      desc: ~
+      materials:
+        - type: default
+          text: If you’re interested in more creative uses of the browser, see my <a href="/project/tabs" class="link">work on reimagining tabs</a>. Otherwise, return <a href="/" class="link">home here</a>.
+
+  presentation:
+    - type: top
+      name: Intro
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/Online+Musem+Logo.png
+
+    - type: spreadContained
+      name: Demo
+      desc: ~
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/online-museum_demo.mp4
+
+    - type: bigContained
+      name: Demo
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/Figma.png
+
+    - type: bigOverflow
+      name: Galleries
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/Exhibit+-+Soo.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/Exhibit+-+Kay.png
+
+    - type: text
+      name: Idea
+      materials:
+        - type: default
+          text: write mode over read mode
+
+    - type: bigContained
+      name: Remix
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/Saving+Material.png
+
+    - type: smallBig
+      name: History
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/Material+History.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/Materials+Sidebar.png
+
+    - type: text
+      name: Lessons
+      materials:
+        - type: numberedList
+          items:
+            - communication
+            - organisation
+            - scoping
+            - working sustainably
+
+    - type: bigContained
+      name: Organise
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/Notion+Checklist.png
+
+    - type: text
+      name: Lessons
+      materials:
+        - type: numberedList
+          items:
+            - communication
+            - organisation
+            - scoping
+            - working sustainably
+
+# ===========
+# MOTION
+
+Motion:
+  name: Motion
+  id: Motion
+  subtitle: Storytelling through movement.
+  desc: |
+    A collection of 4 short motion pieces.
+  type: Motion Design
+  tools:
+    - After Effects
+  dateAndPlace: 2021
+
+  task: Various prompts.
+  idea: Various executions.
+
+  homeCarouselVisualsLinks:
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/motion/Coltrane+-+Cover.png
+    - type: video
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/motion/Coltrane.mp4
+
+  # WatchIcon | MoreIcon | VisitIcon
+  buttons:
+    - icon: MoreIcon
+      text: See Collection
+      src: /project/motion
+
+  projectPageSections:
+    - type: top
+      name: Intro
+      desc: |
+        Please turn the sound on as you watch as it’s integral to the motion. I hope you enjoy watching them as much as I did making them!
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/motion/Coltrane+-+Cover.png
+
+    - type: bigContained
+      name: Coltrane
+      desc: |
+        Prompt: create a 30 second promo for an upcoming (fictitious) show is called “Jazz Legends”. I chose John Coltrane’s “A Love Supreme” as the track.
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/motion/Coltrane.mp4
+          hasSound: true
+
+    - type: bigContained
+      name: Try Less
+      desc: |
+        We had to teach a "fact" in a minute. I chose the idea of "focused" and "diffused" modes of attention.
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/motion/Try+Less.mp4
+          hasSound: true
+
+    - type: bigContained
+      name: Form in Motion
+      desc: |
+        Prompt: create a 30 second show opening for a documentary on the influence of Swiss Design in contemporary culture called “Form in Motion”. We were given additional constraints of it being primarily black and white.
+
+        The music I chose was Steve Reich’s “Electric Counterpoint - III. Fast”
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/motion/Form+in+Motion.mp4
+          hasSound: true
+
+    - type: bigContained
+      name: Cube
+      desc: |
+        A 3D cube for a company logo. Focused a lot on how the sound effects can become as big of a character in the piece as the motion is.
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/motion/Cube.mp4
+          hasSound: true
+
+    - type: text
+      name: End
+      desc: ~
+      materials:
+        - type: default
+          text: If you’d like to see more motion work, I highly recommend my piece “<a href="/project/meaning" class="link">On Meaning</a>”. Otherwise, return <a href="/" class="link">home here</a>.
+
+  presentation:
+    - type: top
+      name: Intro
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/motion/Coltrane+-+Cover.png
+
+    - type: spreadContained
+      name: Coltrane
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/motion/Coltrane.mp4
+          hasSound: true
+
+    - type: spreadContained
+      name: Try Less
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/motion/Try+Less.mp4
+          hasSound: true
+
+    - type: spreadContained
+      name: Form in Motion
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/motion/Form+in+Motion.mp4
+          hasSound: true
+
+    - type: spreadContained
+      name: Cube
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/motion/Cube.mp4
+          hasSound: true
+
+# ==========
+# SCALA
+
+Scala:
+  name: Scala
+  id: scala
+  subtitle: How do you read a zine?
+  desc: |
+    For our Type 1 class, we were tasked with creating a type specimen in the format of this zine. Having never made a zine before, I wanted to explore the ways that it could be interacted with, attempting to figure out as many possibilities as the structure could yield. The back of the zine has a poster on it.
+
+  type: Graphic Design
+  tools:
+    - Indesign
+  dateAndPlace: 2019
+
+  task: A type specimen zine.
+  idea: Pushing the structure of the one sheet, 8 page folded zine as much as possible.
+
+  homeCarouselVisualsLinks:
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/gif/all.gif
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/static/small-18.8x36%20ff%20scala%20type%20specimen%20v2-02.jpg
+
+  # WatchIcon | MoreIcon | VisitIcon
+  buttons:
+    - icon: MoreIcon
+      text: Project Walkthrough
+      src: /project/scala
+
+  projectPageSections:
+    - type: top
+      name: Intro
+      desc: |
+        For our Type 1 class, we were tasked with creating a type specimen in the format of this zine. Having never made a zine before, I wanted to explore the ways that it could be interacted with, attempting to figure out as many possibilities as the structure could yield. The back of the zine has a poster on it.
+
+        The typefaces are Scala & Scala Sans by Martin Majoor.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/static/type-specimen_1.1.jpg
+
+    - type: smallBig
+      name: Sketches
+      desc: Two pages of sketches from a few of really trying to dissect the zine format.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/static/type+specimen+sketches+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/static/type+specimen+sketches+-+2.png
+
+    - type: bigContained
+      name: Unfolding the Zine
+      desc: A flip through the zine in a typical way.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/gif/type-specimen_1.1.gif
+
+    - type: bigContained
+      name: Unfolding the Zine
+      desc: Relationships between pages once folded, bringing richer interpretations.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/gif/type-specimen_2.1.gif
+
+    - type: bigContained
+      name: Unfolding the Zine
+      desc: A fun way of folding (or unfolding) the zine that I discovered. Allows for cross-page interactions.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/gif/type-specimen_3.1.gif
+
+    - type: halfHalfSpread
+      name: Unfolding the Zine
+      desc: ~
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/gif/type-specimen_4.1.gif
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/static/type-specimen_4.3.jpg
+
+    - type: noneBig
+      name: Full Designs
+      desc: Next two images show the full designs.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/static/small-18.8x36%20ff%20scala%20type%20specimen%20v2-01.jpg
+
+    - type: noneBig
+      name: Full Designs
+      desc: I had a lot of fun with the putting together all the wonderful symbols Majoor included.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/static/small-18.8x36%20ff%20scala%20type%20specimen%20v2-02.jpg
+
+    - type: text
+      name: End
+      desc: ~
+      materials:
+        - type: default
+          text: Return <a href="/" class="link">home</a>.
+
+  presentation:
+    - type: top
+      name: Intro
+      desc: ~
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/static/type-specimen_1.1.jpg
+
+    - type: bigContained
+      name: All
+      desc: ~
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/gif/all.gif
+
+    - type: halfHalfContained
+      name: Full
+      desc: ~
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/static/small-18.8x36%20ff%20scala%20type%20specimen%20v2-01.jpg
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/static/small-18.8x36%20ff%20scala%20type%20specimen%20v2-02.jpg
+
+    - type: smallBig
+      name: Sketches
+      desc: ~
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/static/type+specimen+sketches+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/static/type+specimen+sketches+-+2.png
+
+    - type: halfHalfContained
+      name: Folding Interaction
+      desc: ~
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/static/type-specimen_1.3.jpg
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/static/type-specimen_2.3.jpg
+
+    - type: halfHalfContained
+      name: Folding Interaction
+      desc: ~
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/static/type-specimen_3.5.jpg
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/static/type-specimen_3.8.jpg
+
+    - type: halfHalfContained
+      name: Complete
+      desc: ~
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/static/type-specimen_4.1.jpg
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/type-specimen/static/type-specimen_4.3.jpg
+# ==================
+# LIKE A FLOWER
+
+LikeAFlower:
+  name: Like a Flower
+  id: LikeAFlower
+  subtitle: Naturally unfolding.
+  desc: |
+    A game about creativity and creation, control and letting go.
+  type: Game Design
+  tools:
+    - Unity
+    - Aseprite
+  dateAndPlace: 2022
+
+  task: Convey the creative process.
+  idea: An enacted descent into the mythopoetic.
+
+  homeCarouselVisualsLinks:
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+screencap+-+johnstone.png
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/characters/like+a+flower+-+world+2+-+donkey.png
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+screencap+-+level+3+-+2.png
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+world+2+-+campfire.png
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/environment/like+a+flower+-+screencap+-+level+4+-+1.png
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/puzzles/like+a+flower+-+screencap+-+puzzle+2+-+2.png
+
+  # WatchIcon | MoreIcon | VisitIcon
+  buttons:
+    - icon: MoreIcon
+      text: Project Walkthrough
+      src: /project/flower
+
+  projectPageSections:
+    - type: top
+      name: Intro
+      desc: |
+        A game about creativity and creation, control and letting go.
+
+        An explanatory essay is at the bottom of this page. 
+
+        The game is live at <a href='https://yli12.itch.io/like-a-flower' class='link' target='_blank'>itch.io</a>, but there are some game breaking bugs that happened when Unity built the web version.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+screencap+-+enso.png
+
+    - type: bigContained
+      name: Playthrough
+      desc: |
+        The playthrough mostly only hits on the required parts. Feel free to come to this as a guide if you do decide to explore the game on your own and get stuck.
+
+        Game created in Unity, pixel art done in Aseprite.
+
+        Shown below are images of the environment, puzzles, characters, and objects.
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/videos/playthrough.mp4
+
+    - type: trioSpread
+      name: Environment
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/environment/like+a+flower+-+screencap+-+level+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/environment/like+a+flower+-+screencap+-+level+2+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/environment/like+a+flower+-+screencap+-+level+3+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/environment/like+a+flower+-+screencap+-+level+4+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/environment/like+a+flower+-+world+2+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/environment/like+a+flower+-+world+2+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/environment/like+a+flower+-+world+2+-+clouds+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/environment/like+a+flower+-+world+2+-+clouds+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/environment/like+a+flower+-+world+2+-+clouds+-+3.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/environment/like+a+flower+-+world+2+-+3.png
+
+    - type: trioSpread
+      name: Puzzle
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/puzzles/like+a+flower+-+screencap+-+puzzle+1+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/puzzles/like+a+flower+-+screencap+-+puzzle+1+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/puzzles/like+a+flower+-+screencap+-+puzzle+1+-+3.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/puzzles/like+a+flower+-+screencap+-+puzzle+2+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/puzzles/like+a+flower+-+screencap+-+puzzle+2+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/puzzles/like+a+flower+-+screencap+-+puzzle+2+-+3.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/puzzles/like+a+flower+-+screencap+-+puzzle+3+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/puzzles/like+a+flower+-+screencap+-+puzzle+3+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/puzzles/like+a+flower+-+screencap+-+puzzle+3+-+3.png
+
+    - type: trioSpread
+      name: Characters
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/characters/like+a+flower+-+screencap+-+psychopomp.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/characters/like+a+flower+-+world+2+-+big+flower.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/characters/like+a+flower+-+world+2+-+watcher.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/characters/like+a+flower+-+world+2+-+cactus.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/characters/like+a+flower+-+world+2+-+donkey.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/characters/like+a+flower+-+world+2+-+octopus.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/characters/like+a+flower+-+world+2+-+flower+god.png
+
+    - type: trioSpread
+      name: Objects
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+screencap+-+level+2+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+screencap+-+level+3+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+screencap+-+level+4+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+screencap+-+level+1+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+world+2+-+campfire.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+world+2+-+peach+tree.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+world+2+-+small+flowers+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+world+2+-+small+flowers+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+world+2+-+small+flowers+-+3.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+world+2+-+blooming+flower.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+screencap+-+enso.png
+
+    - type: text
+      name: Essay
+      desc: |
+        3 minute read.
+
+        The enso, cactus and death mentioned are shown in the next section.
+      materials:
+        - type: default
+          text: |
+            “Like a Flower” is a game about creativity and creation, control and letting go. 
+
+            In it, you control this character, that has to collect these “sparks” (which are essences of ideas) in order to put together a piece of writing. The game involves a lot of close reading and attention to text as they are what the tasks and puzzles rest upon. 
+
+            The whole game could be thought of as taking place within our minds. The character is us, trying to come up with ideas, piecing together what we’ve seen and read before into something new.
+
+            It begins in this abstract space before eventually you’re transported into this place deeper within you, carried over by the ferryman of souls into the realm of the mythopoetic. These two worlds operate in parallel — the first world is still active and necessary, but in order to progress, you must relay over what you’ve found in the second world from creatures who exist beyond yourself.
+
+            The texts in the game, gotten through places like inscriptions on stones and in conversation with flowers in the sky — they revolve around a few key topics: of release, madness and faith, of being a vessel, of self-acceptance, of love and presence, of spontaneity, of just being. 
+
+            The central through line of these is that of letting go. Of giving ourselves more and more to those powers unknown — the muses, the gods, the daemons, the genius which, by the way, were originally these disembodied creative spirits, divine attendants that came to humans for reasons beyond our understanding. We humans weren’t geniuses, we would “have” a genius. 
+
+            I had a realisation once that, when I peered at the edge of inspiration’s spark, everything that i thought was from me, wasn’t. They were always from the void, or as a remix of some prior material that I saw. And on top of that, there was no willful act that created the ideas, they always just came, whether that’s on a walk or whether that’s amidst many hours of agonizing over research. 
+
+            The latin word “inventio” means both to create, but also to discover. It is at once an act of creation and one of recollection, this almost necessary drawing from the past, a coming upon, a finding of what already came before in order to construct something of the present. 
+
+            Embedded into the structure of the game is this letting go, the mechanics mirroring its content. You start off by controlling the character through the WASD key, but when you enter into the second world, you can only move by point and click. Some tasks embed this too — one puzzle involves drawing the spontaneous zen circle the enso - too careful and slow of a stroke will require a redraw. You get past a guard not through fighting it, but by gifting it a bagel made from a lime grown through presence, and from a heart of love, received through listening. 
+
+            At the end, you no longer move yourself towards your goal, but follow a cactus. The final, main act in world 2 is not of doing anything, but one of its complete opposite — a complete release, a disintegration and death that leads into a new rebirth.
+
+            This game is really quite crude, very on the nose, but I wanted to explore this combination of my two previous interests, storytelling via motion, and interaction via the web and programming. 
+
+            What draws me to video games as mediums is how they work with this embodied enactment. Rather than just a passive viewing, the player has to actually do these actions. In “Like a Flower”, they actually have to wait, they actually have to let go of control. I’m not saying that my game makes any kind of impact that it sets out to do, but in the process of its creation, I’ve begun to think more about design, in any medium, as one of world-building. What worlds am I creating for people to inhabit in, whether that’s months, as in a website interface like a social media, hours as in a film, or mere seconds, as in a billboard advertisement. All of these use different tools to shift our perception, to change, just a little, how our minds and bodies churn. 
+
+            The making of this game has lead me to consider the idea of worlds more carefully. What worlds do I create for others, and, more importantly, what worlds can I co-create, together?
+
+    - type: bigOverflow
+      name: Clips
+      desc: ~
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/videos/enso.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/videos/cactus.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/videos/flowerGod.mp4
+
+    - type: text
+      name: End
+      desc: ~
+      materials:
+        - type: default
+          text: If you’d like to see more of my work on games, see my <a href="/project/three" class="link">3D projects</a>. Otherwise, return <a href="/" class="link">home here</a>.
+
+  presentation:
+    - type: top
+      name: Intro
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+screencap+-+enso.png
+
+    - type: spreadContained
+      name: Playthrough
+
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/videos/playthrough.mp4
+
+    - type: trioSpread
+      name: Environment
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/environment/like+a+flower+-+screencap+-+level+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/environment/like+a+flower+-+screencap+-+level+2+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/environment/like+a+flower+-+screencap+-+level+3+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/environment/like+a+flower+-+screencap+-+level+4+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/environment/like+a+flower+-+world+2+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/environment/like+a+flower+-+world+2+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/environment/like+a+flower+-+world+2+-+clouds+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/environment/like+a+flower+-+world+2+-+clouds+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/environment/like+a+flower+-+world+2+-+clouds+-+3.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/environment/like+a+flower+-+world+2+-+3.png
+
+    - type: trioSpread
+      name: Puzzle
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/puzzles/like+a+flower+-+screencap+-+puzzle+1+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/puzzles/like+a+flower+-+screencap+-+puzzle+1+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/puzzles/like+a+flower+-+screencap+-+puzzle+1+-+3.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/puzzles/like+a+flower+-+screencap+-+puzzle+2+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/puzzles/like+a+flower+-+screencap+-+puzzle+2+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/puzzles/like+a+flower+-+screencap+-+puzzle+2+-+3.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/puzzles/like+a+flower+-+screencap+-+puzzle+3+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/puzzles/like+a+flower+-+screencap+-+puzzle+3+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/puzzles/like+a+flower+-+screencap+-+puzzle+3+-+3.png
+
+    - type: trioSpread
+      name: Characters
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/characters/like+a+flower+-+screencap+-+psychopomp.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/characters/like+a+flower+-+world+2+-+big+flower.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/characters/like+a+flower+-+world+2+-+watcher.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/characters/like+a+flower+-+world+2+-+cactus.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/characters/like+a+flower+-+world+2+-+donkey.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/characters/like+a+flower+-+world+2+-+octopus.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/characters/like+a+flower+-+world+2+-+flower+god.png
+
+    - type: trioSpread
+      name: Objects
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+screencap+-+level+2+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+screencap+-+level+3+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+screencap+-+level+4+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+screencap+-+level+1+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+world+2+-+campfire.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+world+2+-+peach+tree.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+world+2+-+small+flowers+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+world+2+-+small+flowers+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+world+2+-+small+flowers+-+3.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+world+2+-+blooming+flower.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+screencap+-+enso.png
+
+    - type: bigOverflow
+      name: Clips
+      desc: ~
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/videos/enso.mp4
+          autoplay: false
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/videos/cactus.mp4
+          autoplay: false
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/videos/flowerGod.mp4
+          autoplay: false
+
+# =============
+# DIALOGOS
+
+Dialogos:
+  name: Dialogos
+  id: Dialogos
+  subtitle: For those who love ideas.
+  desc: |
+    Dialogos is an app for online dialogue created from a self-directed independent project. 
+
+    Two goals drive it: 1) discover new and interesting people, ideas and reading material, and 2) foster richer, more insightful discussions around ideas. The process involved research, user interviews and surveys, and many rounds of design ideation and iteration.
+
+  type: Product Design
+  tools:
+    - Figma
+    - After Effects
+  dateAndPlace: 2022 @ Studio Rodrigo
+
+  task: Foster a space that grows rich conversation between those who love ideas.
+  idea: Through structure and design, naturally afford insight and the deepening of discussion.
+
+  homeCarouselVisualsLinks:
+    - type: video
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos%20-%20All%20Motion%20Tests.mp4
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos%20-%20Main%20Screens.png
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos%20-%20Discovery%20Map.png
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos%20-%20User%20Profile.png
+
+  # WatchIcon | MoreIcon | VisitIcon
+  buttons:
+    - icon: MoreIcon
+      text: Project Walkthrough
+      src: /project/dialogos
+
+  projectPageSections:
+    - type: top
+      name: Intro
+      desc: |
+        Dialogos is an app for online dialogue created from a self-directed independent project. 
+
+        Two goals drive it: 1) discover new and interesting people, ideas and reading material, and 2) foster richer, more insightful discussions around ideas. The process involved research, user interviews and surveys, and many rounds of design ideation and iteration.
+
+        I had tremendous help and guidance from Ritik Dholakia who mentored me through the whole process.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+Logo.png
+
+    - type: bigContained
+      name: Logo
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+Logo+-+Slide.png
+
+    - type: text
+      name: Goals
+      materials:
+        - type: default
+          text: Goals <br/><br/>
+        - type: numberedList
+          items:
+            - |
+              <i>Discover</i> new interesting people, ideas, 
+              reading material
+            - Foster richer, <i>more insightful discussions</i>
+
+    - type: text
+      name: Audience
+      materials:
+        - type: default
+          text: Audience <br/><br/>
+        - type: default
+          text: <i>People who love ideas</i>
+        - type: numberedList
+          items:
+            - Find new material to read
+            - Deepen understanding through dialogue
+            - |
+              Spark insight by networking prior ideas
+              through writing & curation
+
+    - type: spreadContained
+      name: Use Cases
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Use+Cases.png
+
+    - type: text
+      name: Stage 1
+      materials:
+        - type: default
+          text: Stage 1
+        - type: default
+          text: <i>Discovering & Reading</i>
+
+    - type: spreadContained
+      name: Intro
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Intro+Sign+Up.png
+
+    - type: spreadContained
+      name: Staff Curated
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Staff+Curated.png
+
+    - type: spread
+      name: Main Elements
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Home+-+Main+Three+Elements.png
+
+    - type: text
+      name: Feed
+      materials:
+        - type: default
+          text: "Feed is created from following interesting:"
+        - type: bulletList
+          items:
+            - topics (<i>collections, books</i>)
+            - voices (users, i.e <i>writers</i> + <i>curators</i>)
+
+    - type: spread
+      name: Collection
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Collection.png
+
+    - type: spreadContained
+      name: Discover Map
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Discover+Map.png
+
+    - type: spread
+      name: Book Profile
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Book+Profile.png
+
+    - type: spread
+      name: User Profile
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/User+Profile.png
+
+    - type: spread
+      name: Block Anatomy
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Block+Anatomy.png
+
+    - type: spreadContained
+      name: Links, Swipe Left
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Links+Swipe+Left.png
+
+    - type: spread
+      name: Rabbit Hole, Swipe Right
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Rabbit+Hole+Swipe+Right.png
+
+    - type: text
+      name: Stage 2
+      materials:
+        - type: default
+          text: Stage 2
+        - type: default
+          text: <i>Dialogue</i> + <i>Public Curation</i>
+
+    - type: spreadContained
+      name: Reply
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Reply+and+Block+Creation.png
+
+    - type: spreadContained
+      name: Collection Link
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Link+To+Collection.png
+
+    - type: text
+      name: Alternative UI
+      materials:
+        - type: default
+          text: Animation tests for alternative UI.
+
+    - type: bigContained
+      name: See Replies
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+See+Replies.mp4
+          autoplay: false
+
+    - type: bigContained
+      name: Threads
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+Continue+Thread.mp4
+          autoplay: false
+
+    - type: bigContained
+      name: See Links
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+See+Links.mp4
+          autoplay: false
+
+    - type: text
+      name: Process
+      materials:
+        - type: default
+          text: Process
+
+    - type: text
+      name: Observations
+      materials:
+        - type: default
+          text: Observations <br/> <br/>
+        - type: numberedList
+          items:
+            - Many want to read, or read more but struggle
+            - For those who do read, most don’t retain <br/> the information they want to
+            - Whether or not they read, many <br/> like talking about ideas
+
+    - type: spread
+      name: Iteration
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Iteration+-+Collection.png
+
+    - type: spread
+      name: Iteration
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Iteration+-+Home.png
+
+    - type: spreadContained
+      name: User Flow
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/User+Flow.png
+
+    - type: text
+      name: Social Media
+      materials:
+        - type: default
+          text: Dialogos is not a social media app
+
+    - type: spread
+      name: Liking
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Liking+Mechanism.png
+
+    - type: spreadContained
+      name: Discovery
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Collections+-+For+Discovery.png
+
+    - type: spreadContained
+      name: Discussion
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Collections+-+For+Discussion.png
+
+    - type: text
+      name: End
+      desc: ~
+      materials:
+        - type: default
+          text: If you’d like to see more work that plays with the web interface, see “<a href="/project/place" class="link">Making a Place on the Web</a>”. Otherwise, return <a href="/" class="link">home here</a>.
+
+  presentation:
+    - type: top
+      name: Intro
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+Diagram.png
+
+    - type: spreadContained
+      name: Logo
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+Logo+-+Slide.png
+
+    - type: text
+      name: Goals
+      materials:
+        - type: default
+          text: Goals <br/><br/>
+        - type: numberedList
+          items:
+            - |
+              <i>Discover</i> new interesting people, ideas, 
+              reading material
+            - Foster richer, <i>more insightful discussions</i>
+
+    - type: text
+      name: Audience
+      materials:
+        - type: default
+          text: Audience <br/><br/>
+        - type: default
+          text: <i>People who love ideas</i>
+        - type: numberedList
+          items:
+            - Find new material to read
+            - Deepen understanding through dialogue
+            - |
+              Spark insight by networking prior ideas
+              through writing & curation
+
+    - type: spreadContained
+      name: Use Cases
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Use+Cases.png
+
+    - type: text
+      name: Stage 1
+      materials:
+        - type: default
+          text: Stage 1
+        - type: default
+          text: <i>Discovering & Reading</i>
+
+    - type: spreadContained
+      name: Intro
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Intro+Sign+Up.png
+
+    - type: spreadContained
+      name: Staff Curated
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Staff+Curated.png
+
+    - type: spread
+      name: Main Elements
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Home+-+Main+Three+Elements.png
+
+    - type: text
+      name: Feed
+      materials:
+        - type: default
+          text: "Feed is created from following interesting:"
+        - type: bulletList
+          items:
+            - topics (<i>collections, books</i>)
+            - voices (users, i.e <i>writers</i> + <i>curators</i>)
+
+    - type: spread
+      name: Collection
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Collection.png
+
+    - type: spreadContained
+      name: Discover Map
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Discover+Map.png
+
+    - type: spread
+      name: Book Profile
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Book+Profile.png
+
+    - type: spread
+      name: User Profile
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/User+Profile.png
+
+    - type: spread
+      name: Block Anatomy
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Block+Anatomy.png
+
+    - type: spreadContained
+      name: Links, Swipe Left
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Links+Swipe+Left.png
+
+    - type: spread
+      name: Rabbit Hole, Swipe Right
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Rabbit+Hole+Swipe+Right.png
+
+    - type: text
+      name: Stage 2
+      materials:
+        - type: default
+          text: Stage 2
+        - type: default
+          text: <i>Dialogue</i> + <i>Public Curation</i>
+
+    - type: spreadContained
+      name: Reply
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Reply+and+Block+Creation.png
+
+    - type: spreadContained
+      name: Collection Link
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Link+To+Collection.png
+
+    - type: text
+      name: Alternative UI
+      materials:
+        - type: default
+          text: Animation tests for alternative UI.
+
+    - type: bigContained
+      name: See Replies
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+See+Replies.mp4
+          autoplay: false
+
+    - type: bigContained
+      name: Threads
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+Continue+Thread.mp4
+          autoplay: false
+
+    - type: bigContained
+      name: See Links
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+See+Links.mp4
+          autoplay: false
+
+    - type: text
+      name: Process
+      materials:
+        - type: default
+          text: Process
+
+    - type: text
+      name: Observations
+      materials:
+        - type: default
+          text: Observations <br/> <br/>
+        - type: numberedList
+          items:
+            - Many want to read, or read more but struggle
+            - For those who do read, most don’t retain <br/> the information they want to
+            - Whether or not they read, many <br/> like talking about ideas
+
+    - type: smallBig
+      name: Survey
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/survey+-+answers.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/survey+-+questions.png
+
+    - type: text
+      name: Takeaways
+      materials:
+        - type: default
+          text: Survey Takeaways <br/> <br/>
+        - type: numberedList
+          items:
+            - Space for discussion
+            - Focus on ideas
+            - Goals & events
+
+    - type: text
+      name: Feedback
+      materials:
+        - type: default
+          text: Feedback
+
+    - type: spread
+      name: Iteration
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Iteration+-+Collection.png
+
+    - type: spread
+      name: Iteration
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Iteration+-+Home.png
+
+    - type: text
+      name: Feedback
+      materials:
+        - type: default
+          text: Continual refocusing and clarification
+
+    - type: spreadContained
+      name: Clarifying
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Vision+Goals+Strategies+Audience.png
+
+    - type: spreadContained
+      name: User Flow
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/User+Flow.png
+
+    - type: text
+      name: Care
+      materials:
+        - type: default
+          text: Why should people care?
+
+    - type: text
+      name: Social Media
+      materials:
+        - type: default
+          text: Dialogos is not a social media app
+
+    - type: text
+      name: Goals
+      materials:
+        - type: default
+          text: Goals <br/><br/>
+        - type: numberedList
+          items:
+            - |
+              <i>Discover</i> new interesting people, ideas, 
+              reading material
+            - Foster richer, <i>more insightful discussions</i>
+
+    - type: text
+      name: Theory
+      materials:
+        - type: default
+          text: Theory <br/> <br/>
+        - type: default
+          text: |
+            On <i>Clout</i>, <i>Discussion Anchors</i> 
+            and <i>Networks of Remixed Ideas</i>
+
+    - type: spread
+      name: Featured
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Featured.png
+
+    - type: spread
+      name: Liking
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Liking+Mechanism.png
+
+    - type: spread
+      name: Serving
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Collections+-+What+It+Serves.png
+
+    - type: spreadContained
+      name: Discovery
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Collections+-+For+Discovery.png
+
+    - type: spreadContained
+      name: Discussion
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Collections+-+For+Discussion.png
+    - type: spreadContained
+      name: Links
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Blocks+and+Links.png
+
+    - type: text
+      name: Ecosystem
+      materials:
+        - type: default
+          text: |
+            Cultivating a <i>garden</i>, ecosystem of ideas
+
+    - type: text
+      name: Memory
+      materials:
+        - type: default
+          text: |
+            <i>Natural</i>, <i>enacted</i> spaced repetition
+
+    - type: text
+      name: Remix
+      materials:
+        - type: default
+          text: |
+            <i>Everything</i> is a <i>remix</i>
+
+    - type: spreadContained
+      name: Logo
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+Logo+-+Slide.png
+
+  full:
+    - type: top
+      name: Intro
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+Diagram.png
+
+    - type: spreadContained
+      name: Logo
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+Logo+-+Slide.png
+
+    - type: text
+      name: Goals
+      materials:
+        - type: default
+          text: Goals <br/><br/>
+        - type: numberedList
+          items:
+            - |
+              <i>Discover</i> new interesting people, ideas, 
+              reading material
+            - Foster richer, <i>more insightful discussions</i>
+
+    - type: text
+      name: Audience
+      materials:
+        - type: default
+          text: Audience <br/><br/>
+        - type: default
+          text: <i>People who love ideas</i>
+        - type: numberedList
+          items:
+            - Find new material to read
+            - Deepen understanding through dialogue
+            - |
+              Spark insight by networking prior ideas
+              through writing & curation
+
+    - type: spreadContained
+      name: Use Cases
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Use+Cases.png
+
+    - type: text
+      name: Stage 1
+      materials:
+        - type: default
+          text: Stage 1
+        - type: default
+          text: <i>Discovering & Reading</i>
+
+    - type: spreadContained
+      name: Intro
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Intro+Sign+Up.png
+
+    - type: spreadContained
+      name: Staff Curated
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Staff+Curated.png
+
+    - type: spread
+      name: Main Elements
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Home+-+Main+Three+Elements.png
+
+    - type: text
+      name: Feed
+      materials:
+        - type: default
+          text: "Feed is created from following interesting:"
+        - type: bulletList
+          items:
+            - topics (<i>collections, books</i>)
+            - voices (users, i.e <i>writers</i> + <i>curators</i>)
+
+    - type: spread
+      name: Collection
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Collection.png
+
+    - type: spreadContained
+      name: Discover Map
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Discover+Map.png
+
+    - type: spread
+      name: Book Profile
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Book+Profile.png
+
+    - type: spread
+      name: User Profile
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/User+Profile.png
+
+    - type: spread
+      name: Block Anatomy
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Block+Anatomy.png
+
+    - type: spreadContained
+      name: Links, Swipe Left
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Links+Swipe+Left.png
+
+    - type: spread
+      name: Rabbit Hole, Swipe Right
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Rabbit+Hole+Swipe+Right.png
+
+    - type: text
+      name: Stage 2
+      materials:
+        - type: default
+          text: Stage 2
+        - type: default
+          text: <i>Dialogue</i> + <i>Public Curation</i>
+
+    - type: spreadContained
+      name: Reply
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Reply+and+Block+Creation.png
+
+    - type: spreadContained
+      name: Collection Link
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Link+To+Collection.png
+
+    - type: text
+      name: Alternative UI
+      materials:
+        - type: default
+          text: Animation tests for alternative UI.
+
+    - type: bigContained
+      name: See Replies
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+See+Replies.mp4
+          autoplay: false
+
+    - type: bigContained
+      name: Threads
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+Continue+Thread.mp4
+          autoplay: false
+
+    - type: bigContained
+      name: See Links
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+See+Links.mp4
+          autoplay: false
+
+    - type: text
+      name: Process
+      materials:
+        - type: default
+          text: Process
+
+    - type: bigContained
+      name: Diagram
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+Diagram.png
+
+    - type: text
+      name: Observations
+      materials:
+        - type: default
+          text: Observations <br/> <br/>
+        - type: numberedList
+          items:
+            - Many want to read, or read more but struggle
+            - For those who do read, most don’t retain <br/> the information they want to
+            - Whether or not they read, many <br/> like talking about ideas
+
+    - type: smallBig
+      name: Survey
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/survey+-+answers.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/survey+-+questions.png
+
+    - type: text
+      name: Takeaways
+      materials:
+        - type: default
+          text: Survey Takeaways <br/> <br/>
+        - type: numberedList
+          items:
+            - Space for discussion
+            - Focus on ideas
+            - Goals & events
+
+    - type: bigContained
+      name: Audit
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/audit.png
+
+    - type: text
+      name: Feedback
+      materials:
+        - type: default
+          text: Feedback
+
+    - type: spread
+      name: Iteration
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Iteration+-+Collection.png
+
+    - type: spread
+      name: Iteration
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Iteration+-+Home.png
+
+    - type: text
+      name: Feedback
+      materials:
+        - type: default
+          text: Continual refocusing and clarification
+
+    - type: spreadContained
+      name: Clarifying
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Vision+Goals+Strategies+Audience.png
+
+    - type: spreadContained
+      name: User Flow
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/User+Flow.png
+
+    - type: text
+      name: Care
+      materials:
+        - type: default
+          text: Why should people care?
+
+    - type: text
+      name: Social Media
+      materials:
+        - type: default
+          text: Dialogos is not a social media app
+
+    - type: text
+      name: Goals
+      materials:
+        - type: default
+          text: Goals <br/><br/>
+        - type: numberedList
+          items:
+            - |
+              <i>Discover</i> new interesting people, ideas, 
+              reading material
+            - Foster richer, <i>more insightful discussions</i>
+
+    - type: text
+      name: Theory
+      materials:
+        - type: default
+          text: Theory <br/> <br/>
+        - type: default
+          text: |
+            On <i>Clout</i>, <i>Discussion Anchors</i> 
+            and <i>Networks of Remixed Ideas</i>
+
+    - type: spreadContained
+      name: Staff Curated
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Staff+Curated.png
+
+    - type: spread
+      name: Featured
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Featured.png
+
+    - type: spread
+      name: Liking
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Liking+Mechanism.png
+
+    - type: spread
+      name: Serving
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Collections+-+What+It+Serves.png
+
+    - type: spreadContained
+      name: Discovery
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Collections+-+For+Discovery.png
+
+    - type: spreadContained
+      name: Discussion
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Collections+-+For+Discussion.png
+    - type: spreadContained
+      name: Links
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Blocks+and+Links.png
+
+    - type: text
+      name: Ecosystem
+      materials:
+        - type: default
+          text: |
+            Cultivating a <i>garden</i>, ecosystem of ideas
+
+    - type: text
+      name: Memory
+      materials:
+        - type: default
+          text: |
+            <i>Natural</i>, <i>enacted</i> spaced repetition
+
+    - type: text
+      name: Remix
+      materials:
+        - type: default
+          text: |
+            <i>Everything</i> is a <i>remix</i>
+
+    - type: spreadContained
+      name: Logo
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+Logo+-+Slide.png
+
+# =============
+# AERA
+
+Aera:
+  name: Aera
+  id: Aera
+  subtitle: Risk aware treasury management for DAOs.
+  desc: |
+    Aera is a protocol working in the defi space. 
+
+    I worked with the team at Studio Rodrigo to build their launch site while interning there during 2022. I helped with their launch product site along with many assets on the site including the icons, diagrams, patterns and animations.
+
+  type: Web + Motion + Graphic Design
+  tools:
+    - Figma
+    - After Effects
+  dateAndPlace: 2022 @ Studio Rodrigo
+
+  task: Build a launch product site for a specialised audience.
+  idea: Create a system of visuals that communicates Aera’s trustworthiness and technical understanding while still remaining intuitive.
+
+  homeCarouselVisualsLinks:
+    - type: video
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Aera+-+Site+Recording+-+Shadow.mp4
+    - type: video
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+balancing+-+2.mp4
+    - type: video
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+vault+manager+2.mp4
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Icons+-+Final.png
+
+  buttons:
+    - icon: VisitIcon
+      text: Visit Site
+      src: https://www.aera.finance/
+    - icon: MoreIcon
+      text: Project Walkthrough
+      src: /project/aera
+
+  projectPageSections:
+    - type: top
+      name: Intro
+      desc: |
+        Aera is a protocol working in the defi space. 
+
+        I worked with the team at Studio Rodrigo to build their launch site while interning there during 2022. I worked with Greg Ervanian, who lead the design, V Pan was our PM, Emogene Cataldo did wonderful work on the copy, Ritik Dholakia was a guiding force, and the team at Better Mistakes made the site in Webflow. 
+
+        I helped with their launch product site along with many other assets including the icons, diagrams, patterns and animations.
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Aera+-+Logo.jpg
+
+    - type: bigContained
+      name: Logo Studies
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/logo+-+study+4.mp4
+          autoplay: true
+
+    - type: spreadContained
+      name: Website
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Aera+-+Site+Recording.mp4
+
+    - type: spread
+      name: Website
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/About+-+Iterations+1.png
+
+    - type: spread
+      name: Website
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/About+-+Iterations+2.png
+
+    - type: spread
+      name: Website
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Home+-+Modules.png
+
+    - type: spread
+      name: Website
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Product+-+Final+Iterations.png
+
+    - type: spread
+      name: Website
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Home+-+Final+Iterations.png
+
+    - type: bigContained
+      name: Explorations
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Market+Scenario+-+First+Explorations.png
+
+    - type: bigContained
+      name: Spider Charts
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Market+Scenario+-+Spider+Charts.png
+
+    - type: bigOverflow
+      name: Bars
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Market+Scenario+-+Bars+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Market+Scenario+-+Bars+2.png
+
+    - type: noneBig
+      name: Icons
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Icons+-+Development.png
+
+    - type: bigContained
+      name: Icons
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Icons+-+Final.png
+
+    - type: bigOverflow
+      name: Patterns
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Patterns+-+Exploration.png
+
+    - type: spread
+      name: Patterns
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Patterns+-+Final.png
+
+    - type: trioSpread
+      name: Patterns
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+balancing+-+1.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+balancing+-+2.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+random+to+organised+-+end+together.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+random+at+45+degrees%2C+synced.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+random+to+organised.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+top+left+to+bottom+right.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+vault+manager.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+vault+manager+2.mp4
+
+    - type: spread
+      name: Hero
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Hero+-+Process.png
+
+    - type: bigContained
+      name: Hero
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/home+page+hero.mp4
+
+    - type: trioSpread
+      name: Product Page
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/grow.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/balance.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/deposit.mp4
+
+    - type: halfHalfSpread
+      name: Logo Studies
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/logo+-+study+1-1.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/logo+-+study+2.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/logo+-+study+3.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/logo+-+study+4.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/logo+-+study+5.mp4
+
+    - type: text
+      name: End
+      desc: ~
+      materials:
+        - type: default
+          text: If you’d like to see more product design work, see “<a href="/project/dialogos" class="link">Dialogos</a>”. Otherwise, return <a href="/" class="link">home here</a>.
+
+  presentation:
+    - type: top
+      name: Intro
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Aera+-+Logo.jpg
+
+    - type: spreadContained
+      name: Website
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Aera+-+Site+Recording.mp4
+
+    - type: spread
+      name: Website
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/About+-+Iterations+1.png
+
+    - type: spread
+      name: Website
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/About+-+Iterations+2.png
+
+    - type: spread
+      name: Website
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Home+-+Modules.png
+
+    - type: spread
+      name: Website
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Home+-+Final+Iterations.png
+
+    - type: spread
+      name: Website
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Product+-+Final+Iterations.png
+
+    - type: text
+      name: Patterns
+      materials:
+        - type: default
+          text: Patterns
+
+    - type: bigOverflow
+      name: Patterns
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Patterns+-+Exploration.png
+
+    - type: spread
+      name: Patterns
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Patterns+-+Final.png
+
+    - type: trioSpread
+      name: Patterns
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+balancing+-+1.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+balancing+-+2.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+random+to+organised+-+end+together.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+random+at+45+degrees%2C+synced.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+random+to+organised.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+top+left+to+bottom+right.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+vault+manager.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+vault+manager+2.mp4
+
+    - type: text
+      name: Diagrams
+      materials:
+        - type: default
+          text: Diagrams
+
+    - type: bigContained
+      name: Original Data
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Market+Scenario+-+Original+Data.png
+
+    - type: bigContained
+      name: Explorations
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Market+Scenario+-+First+Explorations.png
+
+    - type: bigContained
+      name: Spider Charts
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Market+Scenario+-+Spider+Charts.png
+
+    - type: bigOverflow
+      name: Bars
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Market+Scenario+-+Bars+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Market+Scenario+-+Bars+2.png
+
+    - type: text
+      name: Icons
+      materials:
+        - type: default
+          text: Icons
+
+    - type: noneBig
+      name: Icons
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Icons+-+Development.png
+
+    - type: bigContained
+      name: Icons
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Icons+-+Final.png
+
+    - type: text
+      name: Hero
+      materials:
+        - type: default
+          text: Hero
+
+    - type: spread
+      name: Hero
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Hero+-+Process.png
+
+    - type: bigContained
+      name: Hero
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/home+page+hero.mp4
+
+    - type: text
+      name: Product
+      materials:
+        - type: default
+          text: Product Page Animations
+
+    - type: trioSpread
+      name: Product Page
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/grow.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/balance.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/deposit.mp4
+
+    - type: halfHalfSpread
+      name: Logo Studies
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/logo+-+study+1-1.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/logo+-+study+2.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/logo+-+study+3.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/logo+-+study+4.mp4
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/logo+-+study+5.mp4
+# =============
+# 3D
+
+Three:
+  name: 3D
+  id: Three
+  subtitle: Experiments in (digital) space.
+  desc: |
+    A small collection of 3D work in blender and unity.
+  type: Modelling + Game Design
+  tools:
+    - Blender
+    - Unity
+  dateAndPlace: 2022
+
+  task: Various.
+  idea: Various.
+
+  homeCarouselVisualsLinks:
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/gudetama.png
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+wide+-+1.png
+
+  buttons:
+    - icon: MoreIcon
+      text: View Experiments
+      src: /project/three
+
+  projectPageSections:
+    - type: top
+      name: Intro
+      desc: |
+        A selection of 3D experiments.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/gudetama.png
+
+    - type: trioSpread
+      name: Ramen Cart
+      desc: Made in Blender.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+wide+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+wide+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+wide+-+3.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+wide+-+front.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+wide+-+side.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+mid.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+close+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+close+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+close+-+3.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+close+-+4.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+close+-+5.png
+
+    - type: bigContained
+      name: Gudetama
+      desc: |
+        A game where Gudetama seeks annihilation in the ramen bowl.
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/gudetama+ramen+recording.mp4
+
+    - type: bigContained
+      name: Planting Friendship
+      desc: |
+        An AR experiment on using technology to become more engaged with life, rather than less. The idea is you leave photos with notes on them for friends to seek out around the city. Exchanging new photo locations involve meeting physically.
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/planting-friendship/make+em.mp4
+    - type: bigContained
+      name: Planting Friendship
+      desc: |
+        Photos are geolocated and pop up when within range.
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/planting-friendship/view+em.mp4
+    - type: bigContained
+      name: Planting Friendship
+      desc: |
+        A very rough 3D sketch of each person’s avatar and the plant that the two of you are growing. The plant grows through finding the photos.
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/planting-friendship/plant+em.mp4
+
+    - type: text
+      name: End
+      desc: ~
+      materials:
+        - type: default
+          text: If you’d like to see more game-like projects, see “<a href="/project/flower" class="link">Like a Flower</a>”. Otherwise, return <a href="/" class="link">home here</a>.
+
+  presentation:
+    - type: top
+      name: Intro
+      desc: |
+        A selection of 3D experiments.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/gudetama.png
+
+    - type: trioSpread
+      name: Ramen Cart
+      desc: Made in Blender.
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+wide+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+wide+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+wide+-+3.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+wide+-+front.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+wide+-+side.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+mid.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+close+-+1.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+close+-+2.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+close+-+3.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+close+-+4.png
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+close+-+5.png
+
+    - type: spreadContained
+      name: Gudetama
+
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/gudetama+ramen+recording.mp4
+
+    - type: spreadContained
+      name: Planting Friendship
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/planting-friendship/make+em.mp4
+
+    - type: spreadContained
+      name: Planting Friendship
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/planting-friendship/view+em.mp4
+
+    - type: spreadContained
+      name: Planting Friendship
+      materials:
+        - type: video
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/planting-friendship/plant+em.mp4
+
+# ===============
+# HOW TO USE
+
+# types:
+# - spread: full width, no desc. only 1 material. is contained - will not have video
+# - spreadContained: like spread but is contained
+# - trioSpread: 3 equal cols, spread width, not contained
+# - halfHalfSpread: 2 equal cols, spread width, not contained
+
+# - trio: 3 cols fills up until desc, equal width
+
+# - halfHalfOverflow: 2 cols, 1/2 size each
+# - halfHalfContained: 2 cols, *not* 1/2 size each but fills up space in whatever way
+
+# - bigOverflow: maximizes width, overflows the viewport
+# - bigContained: goes as big as it can while still all in viewport
+# - smallBig: 2 cols, 1st col takes up 1/3, second 2/3
+# - noneBig: 2 cols, 1st col takes up 1/3 (but has no image), second 2/3
+
+# - text: 2 column big text as a section
+
+# =============
+# TEMPLATE
+
+Template:
+  name:
+  id:
+  subtitle:
+  desc: |
+    ~
+  type:
+  tools:
+    -
+  dateAndPlace:
+
+  task:
+  idea:
+
+  homeCarouselVisualsLinks:
+    - type:
+      src:
+
+  # WatchIcon | MoreIcon | VisitIcon
+  buttons:
+    - icon:
+      text:
+      src:
+
+  projectPageSections:
+    - type: top
+      name: Intro
+      desc: |
+        ~
+      materials:
+        - type:
+          src:
+
+    - type:
+      name:
+      desc:
+      materials:
+        - type:
+          src:
+# MATERIAL TEMPLATES / EXAMPLES
+
+# - type: video
+#   src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning.mp4
+#   hasSound: true (necessary to have this if has sound, otherwise can leave out)
+#   autoplay: true (optional - videos with sound automatically does not autoplay)
+
+# - type: text
+#   name: End
+#   desc: ~
+#   materials:
+#     - type: default
+#       text: Return <a href="/" class="link">home</a>.
+#     - type: default
+#       text: the cultivation of the transcendent through the mundane
+#     - type: bulletList
+#       items:
+#         - hello
+#         - there
+#     - type: numberedList
+#       items:
+#         - communication
+#         - organisation
+#         - scoping
+#         - working sustainably

@@ -1,0 +1,128 @@
+@import "./variables.styl"
+
+.topDivContainer
+  min-height 100vh
+
+.introContainer 
+  font-size 2.2rem
+  p
+    margin 0
+    margin-bottom 1.6rem
+
+  .intro 
+    white-space: pre-line
+
+  // .nameHighlight
+  //   color $background-color
+  //   background-color $black
+  //   font-style italic
+
+.introMedia 
+  position relative
+
+.fallbackImg 
+  width 100%
+  height max-content
+  max-height 90vh
+  position absolute 
+  top 0
+  z-index 1
+
+
+.introVideoPlayer
+  background-color $light-grey
+  // width 100%
+  // height 400%
+  z-index 2
+
+.downIcon
+  vertical-align text-bottom
+  cursor pointer
+
+.caption
+  font-size 1.4rem
+  margin-top 0.4rem
+
+
+.processSquaresContainer
+  height 10rem
+  display flex
+  margin-top 1.2rem
+  img
+    margin-right 1.2rem
+    border-radius 10rem
+
+.subheadingDividers
+  border-top 1px dashed $black 
+  position relative
+  z-index 2
+
+  margin 6.4rem 0
+  padding-top 0.8rem
+
+  span
+    font-size 2.2rem
+    font-style italic
+    background-color $black
+    color $background-color
+
+.scrollTrigger 
+  height 85vh
+  position absolute
+  pointer-events none
+
+  // width is necessary to register the full height for threshold
+  width 10px
+  // background-color blue
+
+.test
+  padding-top 100rem
+
+.loadingCover
+  position fixed 
+  top 0 
+  left 0 
+  width 100%
+  height 100%
+  background-color $background-color
+  z-index 100
+
+  opacity 1
+
+  // centers
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+.loadingText 
+  font-size 18px
+
+  .defaultFamily
+    // color blue
+    font-family $default-font-family
+    font-size 18px
+    font-style italic
+  
+  .defaultItalicFamily
+    font-family $default-font-family
+    font-size 18px
+    font-style italic
+
+  .clickFamily
+    // color red
+    font-family $click-font-family
+    font-size 16px
+
+.fadeOut
+  animation 0.5s forwards fadeOutAnimation
+  pointer-events none 
+  z-index -1
+
+@keyframes fadeOutAnimation
+  from 
+    opacity 1
+
+  to 
+    opacity 0
+
+
