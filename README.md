@@ -2,7 +2,7 @@ Built in Gatsby, deployed to Netlify
 
 Amazon S3 to store images, Vimeo to store video
 
-YAML files in src/assets/data:
+YAML files contain the rest of the data (src/assets/data):
 - homeData.yaml 
   - subtitles, intro text, cover letter that replaces About section
   - which projects are shown and in what order. Changes based on URL parameters
