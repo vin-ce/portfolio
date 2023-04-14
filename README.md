@@ -4,12 +4,11 @@ Amazon S3 to store images, Vimeo to store video
 
 YAML files in src/assets/data:
 - homeData.yaml 
-  - Subtitles
-  - Intro text
-  - Which projects are shown and in what order. Changes based on URL parameters
+  - subtitles, intro text, cover letter that replaces About section
+  - which projects are shown and in what order. Changes based on URL parameters
 
 - presentationURLs.yaml + pages/present.js
-  - Pushes `links` into browser history, presentation is navigated project to project by browser forward / back buttons
+  - pushes `links` into browser history, presentation is navigated project to project by browser forward / back buttons
 
 - projectsData.yaml, holds the data that goes on 
   - home page carousel modules (components/homeProjectModule.js)
