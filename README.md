@@ -1,4 +1,4 @@
-Built in Gatsby
+Built in Gatsby, deployed to Netlify
 
 Amazon S3 to store images, Vimeo to store video
 
