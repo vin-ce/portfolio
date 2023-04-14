@@ -1,24 +1,31 @@
 test:
   links:
-    - scala?mode=presentation
-    - motion?mode=presentation
+    - meaning?mode=presentation
+    - dialogos?mode=presentation
+    - map?mode=presentation
+    - three?mode=presentation
   projects:
-    - Scala
-    - Motion
+    - OnMeaning
+    - Dialogos
+    - MAP
+    - Three
   name: Test
-  date: February 9th 2023
+  date: Jan 1st 2023
 
-# NOTE:
-# if the forward button starts acting funny like skipping all the way to the start or end of the queue, make sure you're *waiting* at the start so all the history stuff can properly load in
+# TO USE:
+# /present?f=company-name
 
+# keeping the mode options in case want to change it
 template:
-  # keeping the mode options in case want to change it
   links:
+    - meaning?mode=presentation
     - dialogos?mode=presentation
   projects:
     - Dialogos
     - OnMeaning
     - Aera
+    - Ode
+    - MAP
     - LikeAFlower
     - MakingAPlaceOnTheWeb
     - Three

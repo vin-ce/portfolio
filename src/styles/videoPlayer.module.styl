@@ -12,13 +12,23 @@
   width 100%
   height 100%
 
-  video
+  user-select none
+  background-color $light-grey
+
+  // video
+  //   object-position top
+  iframe
     object-position top
+    pointer-events none
 
 .carouselPlayerStyle
   // position absolute
-  video
+  // video
+  //   object-position left bottom
+  iframe
     object-position left bottom
+    pointer-events none
+
 
 .fullPlayerStyle
   // display flex
@@ -43,6 +53,9 @@
   // for transition purposes
   opacity 0
   transition opacity 0.25s
+
+  // test
+  z-index 10
 
   .playPauseContainer
     cursor pointer
@@ -109,7 +122,23 @@
   color $background-color
   user-select none
 
+.bufferingContainer
+  position absolute 
+  background-color rgba(245,245,245,0.75)
+  width 100%
+  height 100%
+  top 0
+  left 0
 
+  font-family $click-font-family
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity 0
+  transition 0.25s
+
+  pointer-events none
 
 

@@ -20,17 +20,15 @@ MakingAPlaceOnTheWeb:
 
   homeCarouselVisualsLinks:
     - type: video
-      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Quick+Change+Tab.mp4
+      src: https://vimeo.com/804083965
     - type: image
       src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Garden+-+revisiting+and+growth+equals+gardening.png
     - type: video
-      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Minimap.mp4
+      src: https://vimeo.com/804083951
     - type: image
       src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Tabs+-+Groups+-+Space+All.png
     - type: image
       src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Garden+-+Collecting+Graph.png
-    - type: image
-      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Home+-+Cookie+Jar.png
 
   buttons:
     - icon: MoreIcon
@@ -68,9 +66,9 @@ MakingAPlaceOnTheWeb:
 
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Quick+Change+Tab.mp4
+          src: https://vimeo.com/804083965
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Minimap.mp4
+          src: https://vimeo.com/804083951
 
     - type: bigContained
       name: Switch
@@ -79,7 +77,7 @@ MakingAPlaceOnTheWeb:
 
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Change+Page.mp4
+          src: https://vimeo.com/804083935
 
     - type: bigContained
       name: Groups
@@ -92,7 +90,7 @@ MakingAPlaceOnTheWeb:
 
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Groups.mp4
+          src: https://vimeo.com/804087776
 
     - type: bigOverflow
       name: Groups
@@ -101,6 +99,8 @@ MakingAPlaceOnTheWeb:
 
         Even thinking about what a basic gesture like drawing an arrow from one tab to another could entail would yield something — what kind of information are you connecting?
       materials:
+        - type: video
+          src: https://vimeo.com/804087776
         - type: image
           src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Tabs+-+Groups+-+Draw+1.png
         - type: image
@@ -141,7 +141,7 @@ MakingAPlaceOnTheWeb:
         Here’s one direction of revealing what things we’ve saved.
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Expand.mp4
+          src: https://vimeo.com/804083943
 
     - type: bigContained
       name: Information
@@ -151,7 +151,7 @@ MakingAPlaceOnTheWeb:
         But maybe there could be entire programs / modules between tabs that enrich the connections between them. What if each connection between tabs was a mini game?
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+View+Links+Info.mp4
+          src: https://vimeo.com/804083987
 
     - type: bigContained
       name: Digital Objects
@@ -193,7 +193,7 @@ MakingAPlaceOnTheWeb:
 
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+History+-+Expand+Density+Menu.mp4
+          src: https://vimeo.com/804083916
     - type: bigContained
       name: History
       desc: |
@@ -201,7 +201,7 @@ MakingAPlaceOnTheWeb:
 
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+History+-+On+Tab+Hover.mp4
+          src: https://vimeo.com/804083927
 
     - type: text
       name: End
@@ -270,21 +270,21 @@ MakingAPlaceOnTheWeb:
       name: Minimap
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Minimap.mp4
+          src: https://vimeo.com/804083951
 
     - type: bigOverflow
       name: Switch
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Quick+Change+Tab.mp4
+          src: https://vimeo.com/804083965
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Change+Page.mp4
+          src: https://vimeo.com/804083935
 
     - type: bigOverflow
       name: Groups
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Groups.mp4
+          src: https://vimeo.com/804087776
         - type: image
           src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/IMG+-+Making+a+Place+on+the+Web+-+Tabs+-+Groups+-+Draw+1.png
         - type: image
@@ -311,9 +311,9 @@ MakingAPlaceOnTheWeb:
 
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+Expand.mp4
+          src: https://vimeo.com/804083943
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/making-a-place/VIDEO+-+Making+a+Place+on+the+Web+-+Tabs+-+View+Links+Info.mp4
+          src: https://vimeo.com/804083987
 
     - type: bigContained
       name: Digital Objects
@@ -344,7 +344,7 @@ OnMeaning:
     - type: image
       src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Cover.png
     - type: video
-      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning.mp4
+      src: https://vimeo.com/658806066
       hasSound: true
     - type: image
       src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Yin+Yang.png
@@ -376,7 +376,7 @@ OnMeaning:
       desc: ~
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning.mp4
+          src: https://vimeo.com/658806066
           hasSound: true
 
     - type: trio
@@ -423,16 +423,16 @@ OnMeaning:
       name: Frames
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Section+-+Having+Being.mp4
+          src: https://vimeo.com/804077178
           autoplay: true
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Section+-+Yin+Yang.mp4
+          src: https://vimeo.com/804077199
           autoplay: true
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Section+-+Communion.mp4
+          src: https://vimeo.com/804077169
           autoplay: true
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Section+-+Awake.mp4
+          src: https://vimeo.com/804077156
           autoplay: true
 
     - type: text
@@ -454,7 +454,7 @@ OnMeaning:
       name: Video
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning.mp4
+          src: https://vimeo.com/658806066
           hasSound: true
 
     - type: trio
@@ -500,16 +500,16 @@ OnMeaning:
       name: Frames
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Section+-+Having+Being.mp4
+          src: https://vimeo.com/804077178
           autoplay: true
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Section+-+Yin+Yang.mp4
+          src: https://vimeo.com/804077199
           autoplay: true
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Section+-+Communion.mp4
+          src: https://vimeo.com/804077169
           autoplay: true
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/on-meaning/On+Meaning+-+Section+-+Awake.mp4
+          src: https://vimeo.com/804077156
           autoplay: true
 
 # ===============
@@ -535,9 +535,9 @@ Collection:
 
   homeCarouselVisualsLinks:
     - type: video
-      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Front+Page.mp4
-    - type: video
-      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Image+Question.mp4
+      src: https://vimeo.com/804087985
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Site+-+Highlight+Node.png
 
   buttons:
     - icon: VisitIcon
@@ -564,7 +564,7 @@ Collection:
       desc: ~
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Front+Page.mp4
+          src: https://vimeo.com/804087985
 
     - type: bigContained
       name: Process
@@ -653,7 +653,7 @@ Collection:
 
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Image+Question.mp4
+          src: https://vimeo.com/804101061
         - type: image
           src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Image+Question+Pair.png
 
@@ -700,7 +700,7 @@ Collection:
       desc: ~
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Front+Page.mp4
+          src: https://vimeo.com/804087985
 
     - type: bigContained
       name: Process
@@ -743,7 +743,7 @@ Collection:
       name: Image + Question
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Image+Question.mp4
+          src: https://vimeo.com/804101061
         - type: image
           src: https://vli-portfolio.s3.us-east-2.amazonaws.com/collection/Collection+-+Image+Question+Pair.png
 
@@ -905,7 +905,7 @@ OnlineMuseum:
 
   homeCarouselVisualsLinks:
     - type: video
-      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/online-museum_demo.mp4
+      src: https://vimeo.com/804088263
     - type: image
       src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/Online+Museum+-+Kay.png
     - type: image
@@ -931,7 +931,7 @@ OnlineMuseum:
       desc: ~
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/online-museum_demo.mp4
+          src: https://vimeo.com/807704803
 
     - type: bigContained
       name: Demo
@@ -1023,7 +1023,7 @@ OnlineMuseum:
       desc: ~
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/online-museum_demo.mp4
+          src: https://vimeo.com/804088263
 
     - type: bigContained
       name: Demo
@@ -1059,31 +1059,31 @@ OnlineMuseum:
         - type: image
           src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/Materials+Sidebar.png
 
-    - type: text
-      name: Lessons
-      materials:
-        - type: numberedList
-          items:
-            - communication
-            - organisation
-            - scoping
-            - working sustainably
+    # - type: text
+    #   name: Lessons
+    #   materials:
+    #     - type: numberedList
+    #       items:
+    #         - communication
+    #         - organisation
+    #         - scoping
+    #         - working sustainably
 
-    - type: bigContained
-      name: Organise
-      materials:
-        - type: image
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/Notion+Checklist.png
+    # - type: bigContained
+    #   name: Organise
+    #   materials:
+    #     - type: image
+    #       src: https://vli-portfolio.s3.us-east-2.amazonaws.com/online-museum/Notion+Checklist.png
 
-    - type: text
-      name: Lessons
-      materials:
-        - type: numberedList
-          items:
-            - communication
-            - organisation
-            - scoping
-            - working sustainably
+    # - type: text
+    #   name: Lessons
+    #   materials:
+    #     - type: numberedList
+    #       items:
+    #         - communication
+    #         - organisation
+    #         - scoping
+    #         - working sustainably
 
 # ===========
 # MOTION
@@ -1106,7 +1106,8 @@ Motion:
     - type: image
       src: https://vli-portfolio.s3.us-east-2.amazonaws.com/motion/Coltrane+-+Cover.png
     - type: video
-      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/motion/Coltrane.mp4
+      src: https://vimeo.com/804088412
+      hasSound: true
 
   # WatchIcon | MoreIcon | VisitIcon
   buttons:
@@ -1129,7 +1130,7 @@ Motion:
         Prompt: create a 30 second promo for an upcoming (fictitious) show is called “Jazz Legends”. I chose John Coltrane’s “A Love Supreme” as the track.
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/motion/Coltrane.mp4
+          src: https://vimeo.com/804088412
           hasSound: true
 
     - type: bigContained
@@ -1138,7 +1139,7 @@ Motion:
         We had to teach a "fact" in a minute. I chose the idea of "focused" and "diffused" modes of attention.
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/motion/Try+Less.mp4
+          src: https://vimeo.com/804088530
           hasSound: true
 
     - type: bigContained
@@ -1149,7 +1150,7 @@ Motion:
         The music I chose was Steve Reich’s “Electric Counterpoint - III. Fast”
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/motion/Form+in+Motion.mp4
+          src: https://vimeo.com/804088503
           hasSound: true
 
     - type: bigContained
@@ -1158,7 +1159,7 @@ Motion:
         A 3D cube for a company logo. Focused a lot on how the sound effects can become as big of a character in the piece as the motion is.
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/motion/Cube.mp4
+          src: https://vimeo.com/804088495
           hasSound: true
 
     - type: text
@@ -1179,28 +1180,28 @@ Motion:
       name: Coltrane
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/motion/Coltrane.mp4
+          src: https://vimeo.com/804088412
           hasSound: true
 
     - type: spreadContained
       name: Try Less
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/motion/Try+Less.mp4
+          src: https://vimeo.com/804088530
           hasSound: true
 
     - type: spreadContained
       name: Form in Motion
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/motion/Form+in+Motion.mp4
+          src: https://vimeo.com/804088503
           hasSound: true
 
     - type: spreadContained
       name: Cube
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/motion/Cube.mp4
+          src: https://vimeo.com/804088495
           hasSound: true
 
 # ==========
@@ -1389,8 +1390,6 @@ LikeAFlower:
     - type: image
       src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+screencap+-+level+3+-+2.png
     - type: image
-      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/objects/like+a+flower+-+world+2+-+campfire.png
-    - type: image
       src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/environment/like+a+flower+-+screencap+-+level+4+-+1.png
     - type: image
       src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/puzzles/like+a+flower+-+screencap+-+puzzle+2+-+2.png
@@ -1424,7 +1423,7 @@ LikeAFlower:
         Shown below are images of the environment, puzzles, characters, and objects.
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/videos/playthrough.mp4
+          src: https://vimeo.com/804101264
 
     - type: trioSpread
       name: Environment
@@ -1522,6 +1521,7 @@ LikeAFlower:
         3 minute read.
 
         The enso, cactus and death mentioned are shown in the next section.
+
       materials:
         - type: default
           text: |
@@ -1556,11 +1556,11 @@ LikeAFlower:
       desc: ~
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/videos/enso.mp4
+          src: https://vimeo.com/804101495
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/videos/cactus.mp4
+          src: https://vimeo.com/804101484
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/videos/flowerGod.mp4
+          src: https://vimeo.com/804101253
 
     - type: text
       name: End
@@ -1581,7 +1581,7 @@ LikeAFlower:
 
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/videos/playthrough.mp4
+          src: https://vimeo.com/804101264
 
     - type: trioSpread
       name: Environment
@@ -1678,13 +1678,13 @@ LikeAFlower:
       desc: ~
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/videos/enso.mp4
+          src: https://vimeo.com/804101495
           autoplay: false
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/videos/cactus.mp4
+          src: https://vimeo.com/804101484
           autoplay: false
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/like-a-flower/videos/flowerGod.mp4
+          src: https://vimeo.com/804101253
           autoplay: false
 
 # =============
@@ -1710,7 +1710,7 @@ Dialogos:
 
   homeCarouselVisualsLinks:
     - type: video
-      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos%20-%20All%20Motion%20Tests.mp4
+      src: https://vimeo.com/804101868
     - type: image
       src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos%20-%20Main%20Screens.png
     - type: image
@@ -1884,21 +1884,21 @@ Dialogos:
       name: See Replies
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+See+Replies.mp4
+          src: https://vimeo.com/804101848
           autoplay: false
 
     - type: bigContained
       name: Threads
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+Continue+Thread.mp4
+          src: https://vimeo.com/804101863
           autoplay: false
 
     - type: bigContained
       name: See Links
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+See+Links.mp4
+          src: https://vimeo.com/804101856
           autoplay: false
 
     - type: text
@@ -2121,21 +2121,21 @@ Dialogos:
       name: See Replies
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+See+Replies.mp4
+          src: https://vimeo.com/804101848
           autoplay: false
 
     - type: bigContained
       name: Threads
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+Continue+Thread.mp4
+          src: https://vimeo.com/804101863
           autoplay: false
 
     - type: bigContained
       name: See Links
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+See+Links.mp4
+          src: https://vimeo.com/804101856
           autoplay: false
 
     - type: text
@@ -2460,21 +2460,21 @@ Dialogos:
       name: See Replies
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+See+Replies.mp4
+          src: https://vimeo.com/804101848
           autoplay: false
 
     - type: bigContained
       name: Threads
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+Continue+Thread.mp4
+          src: https://vimeo.com/804101863
           autoplay: false
 
     - type: bigContained
       name: See Links
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/dialogos/Dialogos+-+See+Links.mp4
+          src: https://vimeo.com/804101856
           autoplay: false
 
     - type: text
@@ -2669,7 +2669,7 @@ Dialogos:
 Aera:
   name: Aera
   id: Aera
-  subtitle: Risk aware treasury management for DAOs.
+  subtitle: DeFi-native treasury and risk management.
   desc: |
     Aera is a protocol working in the defi space. 
 
@@ -2686,11 +2686,12 @@ Aera:
 
   homeCarouselVisualsLinks:
     - type: video
-      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Aera+-+Site+Recording+-+Shadow.mp4
+      # aera site recording - shadow
+      src: https://vimeo.com/807706364
     - type: video
-      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+balancing+-+2.mp4
+      src: https://vimeo.com/804102688
     - type: video
-      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+vault+manager+2.mp4
+      src: https://vimeo.com/804102708
     - type: image
       src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Icons+-+Final.png
 
@@ -2720,14 +2721,15 @@ Aera:
       name: Logo Studies
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/logo+-+study+4.mp4
+          src: https://vimeo.com/804102708
           autoplay: true
 
     - type: spreadContained
       name: Website
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Aera+-+Site+Recording.mp4
+          src: https://vimeo.com/807706906
+          # area - site recording
 
     - type: spread
       name: Website
@@ -2807,21 +2809,21 @@ Aera:
       name: Patterns
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+balancing+-+1.mp4
+          src: https://vimeo.com/804102735
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+balancing+-+2.mp4
+          src: https://vimeo.com/804102745
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+random+to+organised+-+end+together.mp4
+          src: https://vimeo.com/804102768
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+random+at+45+degrees%2C+synced.mp4
+          src: https://vimeo.com/804102758
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+random+to+organised.mp4
+          src: https://vimeo.com/804102783
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+top+left+to+bottom+right.mp4
+          src: https://vimeo.com/804102798
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+vault+manager.mp4
+          src: https://vimeo.com/804102813
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+vault+manager+2.mp4
+          src: https://vimeo.com/804102808
 
     - type: spread
       name: Hero
@@ -2833,31 +2835,31 @@ Aera:
       name: Hero
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/home+page+hero.mp4
+          src: https://vimeo.com/804102662
 
     - type: trioSpread
       name: Product Page
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/grow.mp4
+          src: https://vimeo.com/804102655
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/balance.mp4
+          src: https://vimeo.com/804102645
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/deposit.mp4
+          src: https://vimeo.com/804102649
 
     - type: halfHalfSpread
       name: Logo Studies
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/logo+-+study+1-1.mp4
+          src: https://vimeo.com/804102675
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/logo+-+study+2.mp4
+          src: https://vimeo.com/804102688
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/logo+-+study+3.mp4
+          src: https://vimeo.com/804102696
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/logo+-+study+4.mp4
+          src: https://vimeo.com/804102708
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/logo+-+study+5.mp4
+          src: https://vimeo.com/804102727
 
     - type: text
       name: End
@@ -2877,7 +2879,8 @@ Aera:
       name: Website
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/Aera+-+Site+Recording.mp4
+          src: https://vimeo.com/807706906
+          # aera - site recording
 
     - type: spread
       name: Website
@@ -2931,21 +2934,21 @@ Aera:
       name: Patterns
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+balancing+-+1.mp4
+          src: https://vimeo.com/804102735
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+balancing+-+2.mp4
+          src: https://vimeo.com/804102745
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+random+to+organised+-+end+together.mp4
+          src: https://vimeo.com/804102768
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+random+at+45+degrees%2C+synced.mp4
+          src: https://vimeo.com/804102758
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+random+to+organised.mp4
+          src: https://vimeo.com/804102783
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+top+left+to+bottom+right.mp4
+          src: https://vimeo.com/804102798
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+vault+manager.mp4
+          src: https://vimeo.com/804102813
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/vault+-+vault+manager+2.mp4
+          src: https://vimeo.com/804102808
 
     - type: text
       name: Diagrams
@@ -3013,7 +3016,7 @@ Aera:
       name: Hero
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/home+page+hero.mp4
+          src: https://vimeo.com/804102662
 
     - type: text
       name: Product
@@ -3025,25 +3028,25 @@ Aera:
       name: Product Page
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/grow.mp4
+          src: https://vimeo.com/804102655
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/balance.mp4
+          src: https://vimeo.com/804102645
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/deposit.mp4
+          src: https://vimeo.com/804102649
 
     - type: halfHalfSpread
       name: Logo Studies
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/logo+-+study+1-1.mp4
+          src: https://vimeo.com/804102675
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/logo+-+study+2.mp4
+          src: https://vimeo.com/804102688
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/logo+-+study+3.mp4
+          src: https://vimeo.com/804102696
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/logo+-+study+4.mp4
+          src: https://vimeo.com/804102708
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/aera/motion/logo+-+study+5.mp4
+          src: https://vimeo.com/804102727
 # =============
 # 3D
 
@@ -3064,9 +3067,9 @@ Three:
 
   homeCarouselVisualsLinks:
     - type: image
-      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/gudetama.png
-    - type: image
       src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/cart+-+wide+-+1.png
+    - type: image
+      src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/gudetama.png
 
   buttons:
     - icon: MoreIcon
@@ -3115,7 +3118,7 @@ Three:
         A game where Gudetama seeks annihilation in the ramen bowl.
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/gudetama+ramen+recording.mp4
+          src: https://vimeo.com/804699546
 
     - type: bigContained
       name: Planting Friendship
@@ -3123,21 +3126,21 @@ Three:
         An AR experiment on using technology to become more engaged with life, rather than less. The idea is you leave photos with notes on them for friends to seek out around the city. Exchanging new photo locations involve meeting physically.
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/planting-friendship/make+em.mp4
+          src: https://vimeo.com/804103275
     - type: bigContained
       name: Planting Friendship
       desc: |
         Photos are geolocated and pop up when within range.
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/planting-friendship/view+em.mp4
+          src: https://vimeo.com/804103382
     - type: bigContained
       name: Planting Friendship
       desc: |
         A very rough 3D sketch of each person’s avatar and the plant that the two of you are growing. The plant grows through finding the photos.
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/planting-friendship/plant+em.mp4
+          src: https://vimeo.com/804103358
 
     - type: text
       name: End
@@ -3187,25 +3190,224 @@ Three:
 
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/ramen/gudetama+ramen+recording.mp4
+          src: https://vimeo.com/804699546
 
     - type: spreadContained
       name: Planting Friendship
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/planting-friendship/make+em.mp4
+          src: https://vimeo.com/804103275
 
     - type: spreadContained
       name: Planting Friendship
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/planting-friendship/view+em.mp4
+          src: https://vimeo.com/804103382
 
     - type: spreadContained
       name: Planting Friendship
       materials:
         - type: video
-          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/three/planting-friendship/plant+em.mp4
+          src: https://vimeo.com/804103358
+
+# =============
+# MAP
+
+MAP:
+  name: MAP
+  id: MAP
+  subtitle: To enliven me for 10 years.
+  desc: |
+    MAP is an app I made for myself so I can become more alive. 
+
+    It is a place where I can map out three kinds of information: Mods, Agencies and Projects. Because it keeps in mind the question of how it can still be continuously evocative and useful in 10 years time, it emphasises simplicity and elegance in both its visual design, as well as the kinds of information that is recorded on it.
+
+  type: Web development & design
+  tools:
+    - Figma
+    - Code (Gatsby)
+    - Firebase
+  dateAndPlace: 2023
+
+  task: What can aid my aliveness for 10 years?
+  idea: A place where I can map out my ways of being.
+
+  homeCarouselVisualsLinks:
+    - type: video
+      # MAP - Orbit - Shadow
+      src: https://vimeo.com/807758783
+    - type: video
+      # MAP - Site Recording - Shadow
+      src: https://vimeo.com/807756425
+
+  # WatchIcon | MoreIcon | VisitIcon
+  buttons:
+    - icon: MoreIcon
+      text: Project Walkthrough
+      src: /project/map
+
+  projectPageSections:
+    - type: top
+      name: Intro
+      desc: |
+        MAP is an app I made for myself so I can become more alive.
+
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/map/MAP+-+Logo.png
+
+    - type: spreadContained
+      name: Demo
+      desc: ~
+      materials:
+        - type: video
+          # MAP - Site Recording
+          src: https://vimeo.com/807755213
+
+    - type: text
+      name: Description
+      desc: |
+        A description of the app.
+
+      materials:
+        - type: default
+          text: |
+            MAP is a place where I can map out three kinds of information — Mods, Agencies and Projects — so that I can build a better understanding of myself, as well as how I can become a better and more alive person.
+
+            Because it keeps in mind the question of how it can still be continuously evocative and useful in 10 years time, it emphasises simplicity and elegance in both its design, as well as the kinds of information that is recorded on it.
+
+            Because of this, it is not a journalling app — it’s purpose isn’t simply to document, but to clarify and to help guide. Everything should be useful when revisiting it, and might in fact become more useful as time goes on as I get a broader picture.
+
+            To speak to the three parts, starting from the last:
+
+            Projects that repeat over time, for example a yearly reflection, a 3 month improv course I take that repeats weekly, or a month long experiment where I try to notice beauty daily and reflect on how it's going every 2 weeks. The orbits on the home page are the time scales of each cycle (ranging from 1 week to 3 months to 1 year), and the planets are the days on which there is a project.
+
+            Agencies are my ways of being, different parts of me, for example sad-when-lonely Vincent views the world and acts in it differently than sad-when-thinking-about-the-future Vincent. The things that I might map include: what kinds of textures are they experientially, what results in them, how do I work with them well, how do I move out of them or “phase shift” out of them. There can also be agencies that I want to get into more — the taste-of-summer Vincent, or the post-movement-class Vincent.
+
+            Finally, mods, or modifications, are things that I can do to modify how I currently am. An example might be the prompt of +10% chaos — how can I increase the chaos in my life by 10%. Another more mundane one would be to sleep before 10:30pm. Another one yet might be a sequence of actions that can help me phase shift from one agency to another, for example 1 hour walk followed by a shower followed by half an hour of calling a close friend.
+
+            Visually I strove for both be simplicity and beauty. Much attention was put on small details — transitions, spacing, stripping out any unnecessary noise and so on. I wanted it to feel really good to use so I would look forward to visiting it. This aspect of the design is an ongoing process.
+
+    - type: text
+      name: End
+      desc: ~
+      materials:
+        - type: default
+          text: For another project that aims to foster a more thoughtfulness through technology, see <a href="/project/dialogos" class="link">Dialogos</a>. Otherwise, return to <a href="/" class="link">home here</a>.
+
+  presentation:
+    - type: top
+      name: Intro
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/map/MAP+-+Logo.png
+
+    - type: spreadContained
+      name: Demo
+      desc: ~
+      materials:
+        - type: video
+          # MAP - Site Recording
+          src: https://vimeo.com/807755213
+
+Ode:
+  name: Ode
+  id: Ode
+  subtitle: Wordle for the soul.
+  desc: |
+    BeReal x Oblique Strategies, GPT, AR.
+  type: Web & AR
+  tools:
+    - Figma
+    - After Effects
+    - Blender
+    - Unity
+    - GPT
+  dateAndPlace: 2023
+
+  task: Actionable chaos function.
+  idea: An intimate "social" platform with enlivening prompts.
+
+  homeCarouselVisualsLinks:
+    - type:
+      src:
+
+  # WatchIcon | MoreIcon | VisitIcon
+  buttons:
+    - icon:
+      text:
+      src:
+
+  projectPageSections:
+    - type: top
+      name: Intro
+      desc: |
+        ~
+      materials:
+        - type:
+          src:
+
+    - type:
+      name:
+      desc:
+      materials:
+        - type:
+          src:
+
+  presentation:
+    - type: top
+      name: Intro
+      desc: |
+        ~
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/ode/Ode+Logo.png
+
+    - type: spreadContained
+      name: "1"
+      desc: ~
+      materials:
+        - type: video
+          # Ode - Misc
+          src: https://vimeo.com/817503633
+
+    - type: spreadContained
+      name: App Flow
+      desc: ~
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/ode/Overview%2C+App+Flow.png
+
+    - type: spreadContained
+      name: Card Examples
+      desc: ~
+      materials:
+        - type: image
+          src: https://vli-portfolio.s3.us-east-2.amazonaws.com/ode/Card+Examples.png
+
+    - type: spreadContained
+      name: Record
+      desc: ~
+      materials:
+        - type: video
+          # Ode - Record
+          src: https://vimeo.com/817503654
+
+    - type: spreadContained
+      name: Intimate Social Platform
+      desc: ~
+      materials:
+        - type: video
+          # Ode - Intimate Social Platform
+          src: https://vimeo.com/817503674
+
+    - type: spreadContained
+      name: Misc
+      desc: ~
+      materials:
+        - type: video
+          # Ode - Misc
+          src: https://vimeo.com/817503633
 
 # ===============
 # HOW TO USE

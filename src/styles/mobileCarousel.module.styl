@@ -10,7 +10,7 @@
 
   height 35vh
   width 100vw
-  // background-color $light-grey
+  background-color $light-grey
   
 
   .image
@@ -19,12 +19,12 @@
 
     // to prevent image from squishing
     object-fit contain
-    object-position bottom center
+    // object-position bottom center
 
     position absolute
     
-  video 
-    object-position bottom center !important
+  // video 
+  //   object-position bottom center !important
 
 .wrapper 
   height 100%
@@ -33,12 +33,17 @@
 .controlsContainer
   display flex
   user-select none 
-  margin-top 0.4rem
   align-items center
   justify-content right
+  margin-top 0.8rem
+  margin-bottom 0.8rem
 
   div
-    margin-right 1.6rem
+    // margins are separated from the controls container
+    // so that the text & the arrow svgs align
+    margin 0 0.8rem
+    width 3.2rem
+    text-align center
 
 .hidden
   display none
@@ -49,10 +54,10 @@
 $slideTime = 0.25s
 // $slideTime = 5s
 
-.slideIn
-  animation $slideTime forwards slideInAnimation
+.slideInNext
+  animation $slideTime forwards slideInNextAnimation
 
-@keyframes slideInAnimation
+@keyframes slideInNextAnimation
   from 
     left 100%
     // opacity 0%
@@ -62,10 +67,10 @@ $slideTime = 0.25s
     // opacity 100%
 
 
-.slideOut
-  animation $slideTime forwards slideOutAnimation
+.slideOutNext
+  animation $slideTime forwards slideOutNextAnimation
 
-@keyframes slideOutAnimation
+@keyframes slideOutNextAnimation
   from
     left 0%
     // opacity 100%
@@ -73,3 +78,25 @@ $slideTime = 0.25s
   to 
     left -100%
     // opacity 0%
+
+
+.slideInPrev
+  animation $slideTime forwards slideInPrevAnimation
+
+@keyframes slideInPrevAnimation
+  from 
+    left -100%
+
+  to 
+    left 0%
+
+
+.slideOutPrev
+  animation $slideTime forwards slideOutPrevAnimation
+
+@keyframes slideOutPrevAnimation
+  from
+    left 0%
+
+  to 
+    left 100%

@@ -229,7 +229,7 @@ export default function About({ expandPadScrollTrigger, coverLetter }) {
             </div>
             <div className={colophonModule}>
               <div className={arenaCaption}>Site last updated</div>
-              <div>30th Jan 2023</div>
+              <div>4th March 2023</div>
             </div>
           </div>
           {curReadingLongEl}

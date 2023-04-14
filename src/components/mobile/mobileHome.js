@@ -15,6 +15,7 @@ import {
   introContainer,
   topVideo,
   backgroundBlock,
+  intro,
   downIcon,
   withCaptionContainer,
   caption,
@@ -32,8 +33,13 @@ import {
 }
   from "../../styles/mobileHome.module.styl"
 import MobileHomeProjects from "./mobileHomeProjects";
+import homeData from "../../assets/data/homeData.yaml"
 
 export default function MobileHome() {
+
+  function createMarkup(text) {
+    return { __html: text };
+  }
 
   return (
     <React.Fragment>
@@ -42,7 +48,7 @@ export default function MobileHome() {
           <div className={topVideo}>
             <VideoPlayer
               id={`intro`}
-              src="https://vli-portfolio.s3.us-east-2.amazonaws.com/home/my+creative+process.mp4"
+              src="https://vimeo.com/804050618"
               type="full"
               hasSound={false}
               isAutoplay={true}
@@ -52,9 +58,8 @@ export default function MobileHome() {
           <div className={caption}>Representation of my creative process.</div>
 
         </div>
-        <p>Hey! I’m <span className={backgroundBlock}>Vincent</span>.</p>
-        <p>I’m a creative technologist who’s currently experimenting with digital tools via design and code to try and help make the world a little saner.</p>
-        <p>I like to think in systems and about flourishing, self-learning, and the web through the mediums of sites, motion, and games.</p>
+        <div className={intro} dangerouslySetInnerHTML={createMarkup(homeData.intro['default'].text)} />
+        <br />
         <p>Feel free to look at selected projects below. Otherwise, there's more about me at the bottom of this page: <DownIcon className={downIcon} onClick={() => scrollTo("#about")} /></p>
         <p className={mobileVersionText}>
           <span className={backgroundBlock}>This is a minimalist mobile verison of the site. Please visit on desktop for the fuller experience.</span></p>

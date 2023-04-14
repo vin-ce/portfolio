@@ -135,7 +135,7 @@ export function HalfHalfSpread({ humanIndex, data }) {
           tempRow.push(
             <React.Fragment key={`section-${humanIndex}_video-${materialIndex}`} >
               <VideoPlayer
-                propsClasses={content}
+                propsClasses={[content, video].join(' ')}
                 id={`section-${humanIndex}_video-${materialIndex}`}
                 src={materialData.src}
                 type="full"
@@ -282,11 +282,12 @@ export function TrioSpread({ humanIndex, data }) {
           tempRow.push(
             <React.Fragment key={`section-${humanIndex}_video-${materialIndex}`} >
               <VideoPlayer
-                propsClasses={content}
+                propsClasses={[content, video].join(' ')}
                 id={`section-${humanIndex}_video-${materialIndex}`}
                 src={materialData.src}
                 type="full"
                 isAutoplay={materialData.autoplay}
+                noHeight={true}
               />
             </React.Fragment>
           )

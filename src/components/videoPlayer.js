@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useRef } from "react"
 import ReactPlayer from "react-player/lazy"
 
 import {
@@ -26,6 +26,8 @@ import {
 
   durationContainer,
 
+  bufferingContainer,
+
 } from "../styles/videoPlayer.module.styl"
 
 import PlayIcon from "../assets/icons/PlayIcon.svg"
@@ -46,6 +48,8 @@ export default function VideoPlayer({ id, src, propsClasses, onClick, isAutoplay
   const [hasPlayed, setHasPlayed] = React.useState(false)
 
   const [isSeeking, setIsSeeking] = React.useState(false)
+
+  const isBuffering = useRef(false)
 
   const [duration, setDuration] = React.useState(null)
 
@@ -113,16 +117,16 @@ export default function VideoPlayer({ id, src, propsClasses, onClick, isAutoplay
 
 
   const handleOnProgress = state => {
-    if (isPlaying.current && !isSeeking) {
+    if (isPlaying.current && !isSeeking && !isBuffering.current) {
       const progressBarEl = document.getElementById(`${id}_progressBar`)
       progressBarEl.style.width = `${state.played.toFixed(2) * 100}%`
     }
   }
 
-
-
   const handleSeekMouseDown = e => {
-    setIsSeeking(true)
+    if (!isSeeking) {
+      setIsSeeking(true)
+    }
   }
 
   const handleSeekChange = e => {
@@ -134,10 +138,10 @@ export default function VideoPlayer({ id, src, propsClasses, onClick, isAutoplay
 
   const handleSeekMouseUp = e => {
     if (isSeeking) {
-      setIsSeeking(false)
       const progressBarEl = document.getElementById(`${id}_progressBar`)
       progressBarEl.style.width = `${getDecimalPercentOfBar(e).toFixed(2) * 100}%`
       playerRef.current.seekTo(getDecimalPercentOfBar(e), 'fraction')
+      setIsSeeking(false)
     }
   }
 
@@ -161,6 +165,31 @@ export default function VideoPlayer({ id, src, propsClasses, onClick, isAutoplay
       const controlsEl = document.getElementById(`${id}_controlsContainer`)
       controlsEl.style.opacity = 0
     }
+  }
+
+  const handleOnBuffer = () => {
+    document.getElementById('bufferingEl').style.opacity = 1
+    isBuffering.current = true
+  }
+
+  const handleOnBufferEnd = () => {
+    document.getElementById('bufferingEl').style.opacity = 0
+    isBuffering.current = false
+  }
+
+
+  // -------------
+  // DURATION
+
+  const handleOnDuration = (duration) => {
+
+    const seconds = Math.floor(duration)
+
+    // https://stackoverflow.com/questions/3733227/javascript-seconds-to-minutes-and-seconds
+    const m = Math.floor(seconds % 3600 / 60).toString().padStart(2, '0')
+    const s = Math.floor(seconds % 60).toString().padStart(2, '0');
+
+    setDuration(`${m}:${s}`)
   }
 
 
@@ -191,15 +220,6 @@ export default function VideoPlayer({ id, src, propsClasses, onClick, isAutoplay
     // --------------------
     // STYLING & ICONS
 
-    const seconds = playerRef.current.getDuration()
-
-    // https://stackoverflow.com/questions/3733227/javascript-seconds-to-minutes-and-seconds
-    const m = Math.floor(seconds % 3600 / 60).toString().padStart(2, '0')
-    const s = Math.floor(seconds % 60).toString().padStart(2, '0');
-
-    setDuration(`${m}:${s}`)
-
-
 
     const controlsEl = document.getElementById(`${id}_controlsContainer`)
     const playerEl = document.getElementById(`${id}_player`)
@@ -220,12 +240,25 @@ export default function VideoPlayer({ id, src, propsClasses, onClick, isAutoplay
         setPlayerContainerClass(fullPlayerContainer)
 
         if (id === "intro") {
-          // flex & unset is to fit the container
-          // to the actual size of the video
-          playerEl.style.display = "flex"
-          playerEl.style.height = "unset"
-          playerRef.current.getInternalPlayer().style.height = "unset"
-          playerRef.current.getInternalPlayer().style.maxHeight = "90vh"
+
+          if (!isMobile) {
+            // -24 is a convoluted manual hack to get it to actually be the right width on first read
+            playerRef.current.getInternalPlayer().element.style.height = `${(document.getElementById("intro").offsetWidth - 24) * 3 / 4}px`
+
+          } else {
+            playerRef.current.getInternalPlayer().element.style.height = `${(document.getElementById("intro").offsetWidth) * 3 / 4}px`
+          }
+
+          playerRef.current.getInternalPlayer().element.style.display = "flex"
+
+          playerRef.current.getInternalPlayer().element.style.maxHeight = "90vh"
+        } else if (id === "present") {
+
+          playerRef.current.getInternalPlayer().element.style.height = `${(document.getElementById("present").offsetWidth) * 3 / 4}px`
+
+          playerRef.current.getInternalPlayer().element.style.display = "flex"
+
+          playerRef.current.getInternalPlayer().element.style.maxHeight = "90vh"
         }
 
         controlsEl.style.width = "100%"
@@ -272,6 +305,7 @@ export default function VideoPlayer({ id, src, propsClasses, onClick, isAutoplay
   // passes out video player ref for video caption stuff
   React.useEffect(() => {
     if (videoPlayerRef) videoPlayerRef.current = playerRef.current
+
   }, [])
 
   // ----------------------------
@@ -314,11 +348,15 @@ export default function VideoPlayer({ id, src, propsClasses, onClick, isAutoplay
         url={src}
         loop={true}
         muted={!volume}
+        volume={0.5}
 
         playing={playing}
+        onBuffer={handleOnBuffer}
+        onBufferEnd={handleOnBufferEnd}
 
         onProgress={handleOnProgress}
         onReady={handleOnReady}
+        onDuration={handleOnDuration}
       />
 
       <div id={`${id}_controlsContainer`} className={controlsContainer}>
@@ -330,12 +368,16 @@ export default function VideoPlayer({ id, src, propsClasses, onClick, isAutoplay
         </div>
         <div className={progressBarContainer}>
           <div className={progressBar} id={`${id}_progressBar`} />
-          <div className={seekBar} onMouseDown={handleSeekMouseDown} onMouseMove={handleSeekChange} onMouseUp={handleSeekMouseUp} />
+          <div className={seekBar} onMouseDown={handleSeekMouseDown} onMouseMove={handleSeekChange} onMouseUp={handleSeekMouseUp} onMouseLeave={handleSeekMouseUp} />
         </div>
         {volumeEl}
         <div className={durationContainer}>
           {duration}
         </div>
+      </div>
+
+      <div id="bufferingEl" className={bufferingContainer}>
+        buffering
       </div>
     </div >
   )

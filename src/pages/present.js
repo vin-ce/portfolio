@@ -90,7 +90,7 @@ export default function Present({ location }) {
   return (
     <div className={container}>
       <div className={colL}>
-        <span className={company}>Hey {companyName}!</span>
+        <span className={company}>Hi {companyName}!</span>
         <br />
         <div className={dateStyle}>{date}</div>
 
@@ -98,8 +98,9 @@ export default function Present({ location }) {
       <div className={colM}>
         <VideoPlayer
           propsClasses={content}
-          id={`presentation`}
-          src="https://vli-portfolio.s3.us-east-2.amazonaws.com/home/my+creative+process+-+clip.mp4"
+          id={`present`}
+          // clip of my creative process
+          src="https://vimeo.com/808067704"
           type="full"
           isAutoplay={true}
         />

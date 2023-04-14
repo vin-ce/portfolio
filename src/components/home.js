@@ -299,14 +299,14 @@ export default function Home({ location }) {
           <div className={introMedia}>
             <VideoPlayer
               id={`intro`}
-              src="https://vli-portfolio.s3.us-east-2.amazonaws.com/home/my+creative+process.mp4"
+              src="https://vimeo.com/804050618"
               type="full"
               videoPlayerRef={videoPlayerRef}
               isAutoplay={true}
               propsClasses={introVideoPlayer}
               propsHandleOnReady={handleVideoOnReady}
             />
-            <img className={fallbackImg} src="https://vli-portfolio.s3.us-east-2.amazonaws.com/home/intro+screencap.png" />
+            {/* <img id="fallbackImg" className={fallbackImg} src="https://vli-portfolio.s3.us-east-2.amazonaws.com/home/intro+screencap.png" /> */}
           </div>
 
           <div className={caption} >A personal note over a representation of me & my creative process.</div>

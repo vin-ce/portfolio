@@ -13,7 +13,8 @@
   
   overflow hidden
   background-color $light-grey
-  cursor url(/cursor/RightArrow.svg) 30 18, pointer	
+
+  cursor url(/cursor/RightArrow.svg) 30 18, pointer
 
   .image
     height 100%
@@ -28,6 +29,23 @@
     user-select none
 
 
+// this is a workaround so to have onhover right side to have 
+// video pop up the controls, while still having onhover left side to 
+// go back a slide
+// the right side click is attached to the visualsContainer
+// so it's not an additional layer on top, which will block
+// pointer events for the video itself
+.slideLeftBox 
+  height 100% 
+  position absolute 
+  width 50%
+  left 0
+  cursor url(/cursor/LeftArrow.svg) 0 18, pointer	
+
+// .slideRightBox  
+//   right 0
+//   cursor url(/cursor/RightArrow.svg) 30 18, pointer	
+
 .controlsContainer
   display flex
   justify-content right
@@ -37,9 +55,14 @@
   // outer span wraps it so the controls+svg move as a single unit to the bottom
   // allows for controls & svg to center with one another individually
   span
-    span
-      margin-right 1.6rem
+    display flex
+    align-items center
+
+    div
+      margin 0 0.8rem
+      width 3.2rem
       vertical-align middle
+      text-align center
 
     svg
       vertical-align middle
@@ -54,10 +77,13 @@
 $slideTime = 0.25s
 // $slideTime = 5s
 
-.slideIn
-  animation $slideTime forwards slideInAnimation
 
-@keyframes slideInAnimation
+
+
+.slideInNext
+  animation $slideTime forwards slideInNextAnimation
+
+@keyframes slideInNextAnimation
   from 
     left 100%
     // opacity 0%
@@ -67,10 +93,10 @@ $slideTime = 0.25s
     // opacity 100%
 
 
-.slideOut
-  animation $slideTime forwards slideOutAnimation
+.slideOutNext
+  animation $slideTime forwards slideOutNextAnimation
 
-@keyframes slideOutAnimation
+@keyframes slideOutNextAnimation
   from
     left 0%
     // opacity 100%
@@ -78,3 +104,25 @@ $slideTime = 0.25s
   to 
     left -100%
     // opacity 0%
+
+
+.slideInPrev
+  animation $slideTime forwards slideInPrevAnimation
+
+@keyframes slideInPrevAnimation
+  from 
+    left -100%
+
+  to 
+    left 0%
+
+
+.slideOutPrev
+  animation $slideTime forwards slideOutPrevAnimation
+
+@keyframes slideOutPrevAnimation
+  from
+    left 0%
+
+  to 
+    left 100%

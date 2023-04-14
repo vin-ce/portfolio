@@ -18,15 +18,14 @@ intro:
     text: |
       Hey! I’m <span class='highlight'>Vincent</span>.
 
-      I’m a creative technologist who’s currently experimenting with digital tools via design and code to try and help make the world a little saner.
+      I’m a product designer & creative technologist who’s currently experimenting with digital tools via design and code to try and help make the world a little saner.
 
       I like to think in systems and about flourishing, the web, and myth making through the mediums of sites, motion, and games.
-
   test:
     text: |
       Hi <span class='highlight'>Test</span>! This is the test intro.
 
-      I’m a creative technologist who’s currently experimenting with digital tools via design and code to try and help make the world a little saner.
+      I’m a product designer & creative technologist who’s currently experimenting with digital tools via design and code to try and help make the world a little saner.
 
       I like to think in systems and about flourishing, the web, and myth making through the mediums of sites, motion, and games.
 
@@ -38,7 +37,9 @@ projectsOrder:
   default:
     - Dialogos
     - OnMeaning
+    - Ode
     - Aera
+    - MAP
     - LikeAFlower
     - MakingAPlaceOnTheWeb
     - Three
@@ -49,9 +50,9 @@ projectsOrder:
 
   test:
     - Dialogos
-    - Collection
     - OnMeaning
-    - Three
-    - Motion
-    - MakingAPlaceOnTheWeb
+    - Ode
+    - MAP
     - LikeAFlower
+    - MakingAPlaceOnTheWeb
+    - Motion

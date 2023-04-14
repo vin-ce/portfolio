@@ -10,12 +10,15 @@ import {
 
   visualsContainer,
   image,
-  slideIn,
-  slideOut,
+  slideInNext,
+  slideOutNext,
+  slideInPrev,
+  slideOutPrev,
   hidden,
 
 } from "../../styles/mobileCarousel.module.styl"
 
+import LeftIcon from "../../assets/icons/LeftIcon.svg"
 import RightIcon from "../../assets/icons/RightIcon.svg"
 
 
@@ -83,6 +86,7 @@ export default function MobileCarousel({ projectID, homeCarouselVisualsLinks }) 
 
   const handlers = useSwipeable({
     onSwipedLeft: e => nextVisual(),
+    onSwipedRight: e => prevVisual(),
   })
 
 
@@ -108,21 +112,64 @@ export default function MobileCarousel({ projectID, homeCarouselVisualsLinks }) 
 
     setIndex(slideIndex.current)
 
-    // get clicked element, add slideOut
-    clickedEl.classList.add(slideOut)
+    // get clicked element, add slideOutNext
+    clickedEl.classList.add(slideOutNext)
 
     // get next index, add SlideIn, remove hidden
     nextEl = document.getElementById(`${projectID}_visual_${slideIndex.current}`)
-    nextEl.classList.add(slideIn)
+    nextEl.classList.add(slideInNext)
     nextEl.classList.remove(hidden)
 
     // wait, and then reset 
     // remove animation classes + add hidden class
     setTimeout(() => {
 
-      nextEl.classList.remove(slideIn)
+      nextEl.classList.remove(slideInNext)
 
-      clickedEl.classList.remove(slideOut)
+      clickedEl.classList.remove(slideOutNext)
+      clickedEl.classList.add(hidden)
+
+      isSlide = false
+    }, SLIDE_TIME)
+
+  }
+
+  function prevVisual() {
+
+    // prevent clicking too fast
+    if (isSlide) {
+      return
+    } else {
+      isSlide = true
+    }
+
+    let clickedEl = document.getElementById(`${projectID}_visual_${slideIndex.current}`)
+    let prevEl;
+
+    // set index to the prev one to account for index being 0
+    if (slideIndex.current === 0) {
+      slideIndex.current = numOfVisuals - 1
+    } else {
+      slideIndex.current--
+    }
+
+    setIndex(slideIndex.current)
+
+    // get clicked element, add slideOutNext
+    clickedEl.classList.add(slideOutPrev)
+
+    // get next index, add SlideIn, remove hidden
+    prevEl = document.getElementById(`${projectID}_visual_${slideIndex.current}`)
+    prevEl.classList.add(slideInPrev)
+    prevEl.classList.remove(hidden)
+
+    // wait, and then reset 
+    // remove animation classes + add hidden class
+    setTimeout(() => {
+
+      prevEl.classList.remove(slideInPrev)
+
+      clickedEl.classList.remove(slideOutPrev)
       clickedEl.classList.add(hidden)
 
       isSlide = false
@@ -138,6 +185,7 @@ export default function MobileCarousel({ projectID, homeCarouselVisualsLinks }) 
       </div>
 
       <div className={controlsContainer}>
+        <LeftIcon onClick={prevVisual} />
         <div>{slideIndex.current + 1}/{numOfVisuals}</div>
         <RightIcon onClick={nextVisual} />
       </div>
